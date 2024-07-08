@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import './App.css'; // Ensure correct path to your CSS file
-
+import{ useState, useEffect, useRef } from 'react';
+import './Pages/Home/App.css'; // Ensure correct path to your CSS file
+import { Link } from 'react-router-dom';
 function NavBar() {
   const [dropdownOpen1, setDropdownOpen1] = useState(false);
   const [dropdownOpen2, setDropdownOpen2] = useState(false);
@@ -55,7 +55,7 @@ function NavBar() {
             <img src='/logo/practo-logo-917D9B45A1-seeklogo.com.png' alt="Logo" />
           </div>
           <ul className="nav-links left">
-            <li><a href="#">Find Doctors</a></li>
+            <li><Link to="/findDoctors">Find Doctors</Link></li>
             <li><a href="#">Video Consult</a></li>
             <li><a href="#">Surgeries</a></li>
           </ul>

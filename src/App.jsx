@@ -1,26 +1,18 @@
-
-import './App.css'; 
-import Card from './card';
-import AfterCard from './AfterCard';
-import SecondCard from './SecondCard';
-import SearchBox from './SearchBox';
-import AfterCard2 from './AfterCard2';
-import ThirdCard from './ThirdCard';
-import FourthPart from './FourthPart'; 
-import FifthPart from './FifthPart';
-import SixthPart from './SixthPart';
+import Home from './Pages/Home/Home';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Routes, Route } from 'react-router-dom';
 import Navbar from "./Navbar"
+import FindDoctor from './Pages/FindDoctors/FindDoctor';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      
      
-      <SearchBox/>
+      {/* <SearchBox/>
 
       <Card/>
       <AfterCard/>
@@ -29,8 +21,14 @@ function App() {
       <ThirdCard/>
       <FourthPart /> 
       <FifthPart/>
-      <SixthPart/>
-      <Footer/> 
+      <SixthPart/> */}
+       <Navbar />
+      <Routes>
+     <Route path='/' element={<Home />}/>
+        <Route path='/findDoctors' element={<FindDoctor />}/>
+         
+      </Routes>
+      <Footer/>
     </div>
   );
 }
