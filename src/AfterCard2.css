@@ -1,0 +1,30 @@
+/* src/HeaderWithButton.css */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    margin-top: -30px !important;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .text-section {
+    flex: 1;
+    /* margin-bottom: 5px !important; */
+    margin-left: 25px !important;
+  }
+  .text-colr{
+    font-size: 24px !important;
+  }
+  .para-colr{
+    font-size: 15px !important;
+  }
+  
+  

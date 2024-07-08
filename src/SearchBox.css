@@ -1,0 +1,56 @@
+.logo-img {
+  height: 15px; /* Adjust height as needed */
+  margin-right: 10px; /* Optional margin */
+}
+
+.maptext {
+  margin: 0; /* Remove default margin */
+  font-size: 14px !important; /* Adjust font size */
+  display: inline !important;
+  color: gray;
+}
+
+.searchtext {
+  margin: 0; /* Remove default margin */
+  font-size: 14px !important; /* Adjust font size */
+  font-style: normal;
+  font-family: sans-serif;
+  display: inline !important;
+  color: gray;
+}
+
+.app-container {
+  display: flex;
+  width: 712px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.column {
+  border: 1px solid #ccc; /* Optional: Add border for visualization */
+  padding: 7px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.one {
+  width: 40%;
+}
+
+.two {
+  width: 60%;
+}
+
+.search-img {
+  height: 15px; /* Adjust height as needed */
+  margin-right: 10px; /* Optional margin */
+}
+
+.column h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 1rem;
+  line-height: 1.6;
+}

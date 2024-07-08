@@ -1,0 +1,75 @@
+.rounded-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-top: -50px;
+}
+
+.icon-section button {
+  background: white; /* Gradient from light blue to teal */
+  color: #27c4f8; /* Text color */
+  border: none;
+  padding: 1px 10px; /* Adjust padding to fit the text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  margin-left: 15px !important;
+  padding-left: 0;
+  margin-right: 70px !important;
+}
+
+.icon-section {
+  text-align: center;
+  padding: 10px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.icon-section p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.icon-section p span {
+  display: block;
+}
+
+* {
+  font-family: Lato, Helvetica, Arial, sans-serif !important;
+}
+
+body {
+  font-family: Lato;
+  font-weight: 400;
+}
+.card-text {
+  color: rgb(54, 53, 53);
+  font-size: 14px !important;
+  font-weight: 550;
+  height: 60px;
+  /* margin: 10px 10px; */
+  margin-bottom: -1px !important;
+}
+.btnsection {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #14bef0;
+  position: relative;
+  top: -11px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  margin-top: -65px !important;
+  font-family:'Times New Roman', Times, serif!important;
+
+}

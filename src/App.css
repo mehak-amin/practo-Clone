@@ -1,0 +1,265 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar-container {
+  
+  z-index: 1000;
+  width: 100% !important;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+}
+
+.navbar {
+  background-color: #ffffff;
+  color: rgb(12, 12, 12);
+  padding: 20px 45px !important;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in the element's total width */
+  top: 0;
+  left: 0;
+ 
+}
+.sectionn-divider {
+  width: 100%;
+  margin: 10px  !important;
+  border: none;
+  border-top: 1.5px solid #aca3a3;
+  }
+  
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure the nav-container takes full width */
+  margin-top: 3px !important;
+}
+
+.nav-logo {
+  margin-right: 40px;
+}
+
+.nav-logo img {
+  height: 25px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links.left {
+  margin-right: auto;
+  
+}
+
+
+.nav-links.right {
+  margin-left: auto;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  position: relative;
+}
+
+.nav-links a {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer; /* Ensure cursor changes on clickable links */
+}
+
+.nav-links.left a {
+  color: #2d2d32;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  
+}
+
+.nav-links.right a {
+  color: rgb(68, 67, 67);
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+   
+    
+}
+
+.nav-links.right li:not(.auth-link) > a::after {
+  content: ' ▼';
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+.auth-link a {
+  background-color: white;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #040404;
+}
+
+.auth-link a:hover {
+  background-color: #0056b3;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px); /* Adjust as needed */
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  list-style: none;
+  z-index: 1000;
+}
+
+.nav-links li {
+  position: relative; /* Ensure relative positioning for dropdown */
+}
+
+.nav-links li:hover .dropdown {
+  display: block;
+}
+
+
+.dropdown li {
+  padding: 10px 20px;
+}
+
+.dropdown li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.dropdown li a:hover {
+  color: #555;
+}
+
+
+
+/* Card.jsx  */
+
+/* Overall container styles */
+.content-container {
+  margin-top: 80px;
+}
+
+/* Card container styles */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 80px;
+  margin-left: 120px !important;
+  margin-bottom: 80px !important;
+}
+
+/* Individual card styles */
+.custom-card {
+  border: 1px solid white !important; /* Ensure the border is white */
+  border-radius: 25px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .12);
+  width: 200px; /* Fixed width for all cards */
+  height: 290px !important ; /* Fixed height for all cards */
+}
+
+.custom-card .img-wrapper {
+  background: #AFCFED; /* Default background color for the first card */
+  padding: 12px 35px 0 35px; /* Padding as per the first card */
+}
+
+.custom-card:nth-child(2) .img-wrapper {
+  background: #98CBD6; /* Background color for the second card */
+  padding: 4px 20px 0 20px; /* Padding as per the second card */
+}
+
+.custom-card:nth-child(3) .img-wrapper {
+  background: #D5D8FC; /* Background color for the third card */
+  padding: 16px 14px 0 20px; /* Padding as per the third card */
+}
+
+/* Image styles */
+.custom-card img {
+  width: auto;
+  height: 160px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Card body styles */
+.custom-card .card-body {
+  padding: 15px;
+}
+
+/* Card text styles */
+.custom-card .card-text {
+  margin: 0;
+  color: #6b6868;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+
+/* Bold body text styles */
+.body-text {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+/* Dropdown styles */
+
+/* Ensure dropdown remains visible when the dropdown toggle is clicked */
+.dropdownplz-menu {
+  display: none; /* Hide dropdown menu by default */
+  position: absolute; /* Position absolute for dropdown positioning */
+  background-color: #fff; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding: 10px 0; /* Padding around dropdown items */
+  list-style: none; /* Remove default list styles */
+  z-index: 1000; /* Ensure dropdown is on top */
+  width: 200px; /* Fixed width of the dropdown menu */
+  left: 0; /* Align dropdown with parent */
+  top: calc(100% + 5px); /* Position below the parent */
+}
+
+.dropdownplz-menu.show {
+  display: block; /* Show dropdown menu when dropdownOpen state is true */
+}
+
+.dropdownplz-menu a {
+  color: #333; /* Link color */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Block display for full-width links */
+  padding: 10px 20px; /* Padding around each link */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.dropdownplz-menu a:hover {
+  background-color: #f1f1f1; /* Background color on hover */
+}
+.new-badge {
+  background-color: #28328c; /* Red background color */
+  color: #fff; /* White text color */
+  font-size: 8px; /* Adjust font size */
+   /* Bold text */
+  border-radius: 12px; /* Rounded corners */
+  padding: 2px 6px; /* Padding for the badge */
+  margin-right: 3px; /* Space between badge and text */
+
+}
