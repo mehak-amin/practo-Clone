@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './SecondCard.css';
 
 function SecondCard() {
@@ -12,7 +12,7 @@ function SecondCard() {
   ];
 
   return (
-    <div className="card-container" >
+    <div className="card-containernew" >
       {cardData.map((card, index) => (
         <div className="icon-section" key={index}>
           <img src={card.imgSrc} alt={card.text} className="rounded-image" />

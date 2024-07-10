@@ -1,0 +1,31 @@
+.image {
+  width: 1180px; /* Adjust width as needed */
+  height: 300px !important; /* Adjust height as needed */
+  margin-left: 60px !important;
+  margin-bottom: -20px !important;
+  object-fit: contain; /* Ensure the entire image fits within the container */
+}
+
+.image-container{
+  width: 1280px; 
+  margin-bottom: 10px !important;
+  height: 287PX;
+}
+/* Remove white carousel control */
+
+
+/* Style the black carousel control */
+.carousel-control-prev-icon {
+  border: solid rgb(90, 89, 89);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: -30px; /* Adjust padding as needed */
+  transform: rotate(135deg); /* Rotate the arrow to point left */
+  margin-left: 30px !important; /* Adjust margin as needed */
+}
+.carousel-control-prev-icon {
+ background-image: none !important;
+}
+.carousel-control-next-icon {
+  background-image: none !important;
+ }

@@ -1,5 +1,5 @@
 import{ useState, useEffect, useRef } from 'react';
-import './Pages/Home/App.css'; // Ensure correct path to your CSS file
+import './App.css'; // Ensure correct path to your CSS file
 import { Link } from 'react-router-dom';
 function NavBar() {
   const [dropdownOpen1, setDropdownOpen1] = useState(false);

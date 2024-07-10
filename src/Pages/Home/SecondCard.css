@@ -1,6 +1,6 @@
 .rounded-image {
-  width: 130px;
-  height: 130px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
@@ -17,14 +17,16 @@
   white-space: nowrap; /* Prevent text wrapping */
 }
 
-.card-container {
+.card-containernew {
   display: flex;
   flex-direction: row;
   gap: 30px;
   align-items: flex-start;
-  margin-left: 15px !important;
+  margin-left: 45px !important;
   padding-left: 0;
   margin-right: 70px !important;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .icon-section {

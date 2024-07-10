@@ -1,18 +1,23 @@
-
-import './FifthPart.css';
+import './Users.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-function FifthPart() {
+function Users() {
   const carouselItems = [
-    { content: 'Very helpful. Far easier than doing same things on computer. <br> Allows quick and easy search with speedy booking.<br> Even maintains history of doctors visited.', userName: 'Avinash Kumar', userIcon: '/path/to/icon.png' },
-    { content: 'Very easy to book, maintain history. Hassle free from <br> older versions of booking appointment via telephone..<br>Thanks Practo for making it simple.', userName: 'Amit Sharma', userIcon: '/path/to/icon.png' },
-    { content: 'Very good app. Well thought out about<br> booking/rescheduling/canceling an appointment. <br> Also, Doctors feedback mechanism is good and<br> describes all the basics in a good way', userName: 'Jyothi Bhatia', userIcon: '/path/to/icon.png' }
+    { content: 'Beautiful application with elegant UI Design. I found this app very useful.  Placed Order for a <br/> few medicines and recieved in just two days. Same medicine costs me +100 from local Shop.<br/> Recommended application. :-).', userName: 'Avinash Kumar', userIcon: '/path/to/icon.png' },
+    { content: 'Very useful app. It saves time and money and genuine. Keep going Practo. Thank you.', userName: 'Amit Sharma', userIcon: '/path/to/icon.png' },
+    { content: 'Nice app for people who want to manage time for searching medicine..', userName: 'Jyothi Bhatia', userIcon: '/path/to/icon.png' },
+    { content: 'Very useful app. It saves time and money and genuine. Keep going Practo. Thank you.', userName: 'Jyothi Bhatia', userIcon: '/path/to/icon.png' },
+    { content: 'I ordered medicine. It was delivered right time. With big discount.', userName: 'Jyothi Bhatia', userIcon: '/path/to/icon.png' },
   ];
 
+  const getCaptionClassName = (content) => {
+    return content.length > 200 ? 'carousel-caption-long' : 'carousel-caption-short';
+  };
+
   return (
-    <div className="fifth-part">
-      <h2 className="carousel-title">What users have to say</h2>
+    <div className="newfifth-part">
+      <h2 className="car-title">What users have to say</h2>
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           {carouselItems.map((item, index) => (
@@ -31,8 +36,9 @@ function FifthPart() {
           {carouselItems.map((item, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
               <div className="d-block w-100 carousel-itemm">
-                <div className="carousel-caption d-md-block">
-                  <p className="para" dangerouslySetInnerHTML={{ __html: item.content }}></p>
+              <span className="text-charcoal-grey text-arrow u-text--bold u-m-r--10">“</span>
+                <div className={`car-caption ${getCaptionClassName(item.content)}`}>
+                  <p className="paragraph" dangerouslySetInnerHTML={{ __html: item.content }}></p>
                   <div className="u-d__inline-block u-t-left u-v-middle u-margin--10__left">
                     <img src='\logo\p8dow26e.png' alt="User Icon" className="user-icon" />
                     <div className="user-name">{item.userName}</div>
@@ -55,4 +61,4 @@ function FifthPart() {
   );
 }
 
-export default FifthPart;
+export default Users;

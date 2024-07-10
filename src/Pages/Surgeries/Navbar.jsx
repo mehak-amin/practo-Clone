@@ -1,5 +1,5 @@
 import{ useState, useEffect, useRef } from 'react';
-import './Pages/Home/App.css'; // Ensure correct path to your CSS file
+import './App.css'; // Ensure correct path to your CSS file
 import { Link } from 'react-router-dom';
 function NavBar() {
   const [dropdownOpen1, setDropdownOpen1] = useState(false);
@@ -60,6 +60,7 @@ function NavBar() {
             <li><Link to="/findDoctors">Find Doctors</Link></li>
             <li><a href="#">Video Consult</a></li>
             <li><Link to="/surgeries">Surgeries</Link></li>
+            <li><Link to="/medicines">Medicines</Link></li>
           </ul>
           <ul className="nav-links right">
             <li className="nav-itemm dropdownplz" ref={dropdownRef1}>

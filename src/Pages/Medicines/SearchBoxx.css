@@ -1,0 +1,30 @@
+.app-containermed {
+  display: flex;
+  width: 712px;
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.column-med {
+  border: 1px solid #c9c8c8; /* Optional: Add border for visualization */
+  padding: 7px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  width: 84%;
+  box-shadow: 5px 5px 10px rgba(202, 200, 200, 0.5);
+  border-radius: 2px;
+}
+
+.search-img-med {
+  height: 15px; /* Adjust height as needed */
+  margin-right: 10px; /* Optional margin */
+}
+
+.searchtext-med {
+  margin: 0; /* Remove default margin */
+  font-size: 14px !important; /* Adjust font size */
+  font-style: normal;
+  font-family: sans-serif;
+  display: inline !important;
+  color: gray;
+}

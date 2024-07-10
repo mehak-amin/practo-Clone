@@ -1,9 +1,9 @@
-import React from "react";
+
 import './App.css';
 
 function Card() {
   return (
-    <div className="card-container">
+    <div className="card-container-ist-page">
       <div className="card custom-card">
         <div className="img-wrapper">
           <img src="\logo\dweb_instant_video_consulation.png" className="card-img-top" alt="Instant Video Consultation" />
