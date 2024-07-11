@@ -6,6 +6,8 @@ import BrowseSnd from "./BrowseSnd"
 import Products from "./Products"
 import Introducing from "./Introducing"
 import Users from "./Users"
+import DownloadPracto from "./DownloadPracto"
+import HiddenText from "./HiddenText"
 
 
 export default function Medicines() {
@@ -19,6 +21,8 @@ export default function Medicines() {
       <Products/>
       <Introducing/>
       <Users/>
+      <DownloadPracto/>
+      <HiddenText/>
       
     </div>
   )

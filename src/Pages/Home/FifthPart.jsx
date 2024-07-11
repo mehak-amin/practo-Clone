@@ -12,25 +12,13 @@ function FifthPart() {
 
   return (
     <div className="fifth-part">
-      <h2 className="carousel-title">What users have to say</h2>
+      <h2 className="carousel-title">What our users have to say</h2>
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-indicators">
-          {carouselItems.map((item, index) => (
-            <button
-              key={index}
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to={index}
-              className={index === 0 ? 'active' : ''}
-              aria-current={index === 0 ? 'true' : ''}
-              aria-label={`Slide ${index + 1}`}
-            ></button>
-          ))}
-        </div>
+       
         <div className="carousel-inner">
           {carouselItems.map((item, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-              <div className="d-block w-100 carousel-itemm">
+              <div className="d-block w-100 carousel-itemm-first-one">
                 <div className="carousel-caption d-md-block">
                   <p className="para" dangerouslySetInnerHTML={{ __html: item.content }}></p>
                   <div className="u-d__inline-block u-t-left u-v-middle u-margin--10__left">

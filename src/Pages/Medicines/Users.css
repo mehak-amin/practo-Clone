@@ -1,131 +1,183 @@
 .carousel-itemm {
-    height: 320px !important;
+    height: 300px !important;
     display: flex;
-    flex-direction: column; /* Ensure items stack vertically */
-    align-items: center; /* Center items vertically */
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: white;
     margin-top: 100px !important;
-    margin-bottom: -185px !important;
+    margin-bottom: -135px !important;
   }
-
+  
   .car-caption {
     text-align: center;
     background-color: white;
-    margin-bottom: -10px !important; /* Add margin at the bottom */
+    margin-bottom: -10px !important;
     text-align: center !important;
   }
- 
   
-
   .carousel-caption-long {
     text-align: center;
     background-color: white;
-    margin-bottom: 20px !important; /* Adjust margin as needed */
+    margin-bottom: 20px !important;
     margin-top: -130px !important;
   }
   
   .carousel-caption-short {
     text-align: center;
     background-color: white;
-    margin-top: -130px !important; /* Adjust margin as needed */
-    
+    margin-top: -130px !important;
   }
-.carousel-indicators button {
-    background-color: gray; /* Set the dash type to gray */
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-image: none; /* Remove the default background image */
-}
-
-.carousel-control-prev-icon {
-    border: solid black; /* Apply black color */
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+  
+  .carousel-control-prev-icon {
+    border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: -30px;
-    transform: rotate(135deg); /* Rotate the arrow to point left */
+    transform: rotate(135deg);
     margin-left: 30px !important;
-}
-
-.carousel-control-next-icon {
-    border: solid black; /* Apply black color */
+  }
+  
+  .carousel-control-next-icon {
+    border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: -30px;
-    transform: rotate(-45deg); /* Rotate the arrow to point right */
+    transform: rotate(-45deg);
     margin-right: 90px !important;
-}
-
-.carousel-inner {
+  }
+  
+  .carousel-inner {
     width: 100%;
-    height: 100%; /* Corrected height percentage */
-    background-color: white; /* Set background to white */
-}
-
-.car-title {
+    height: 100%;
+    background-color: white;
+  }
+  
+  .car-title {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     color: #414146;
     -webkit-font-smoothing: antialiased;
     text-size-adjust: 100%;
     box-sizing: border-box;
     font-family: Lato, Helvetica, Arial, sans-serif !important;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     text-align: center;
     margin-top: 60px !important;
-}
-
-.paragraph {
+  }
+  
+  .paragraph {
     color: #000;
     font-size: 24px;
-   text-align: center;
-}
-
-/* Custom User Name and Icon */
-.u-d__inline-block {
-    display: inline-block;
-}
-
-.u-t-left {
-    text-align: left;
-}
-
-.u-v-middle {
-    vertical-align: middle;
-}
-
-.u-margin--10__left {
-    margin-left: 10px;
-}
-
-.user-name {
-    display: inline-block;
-    margin-left: 8px;
-    color: #000;
-}
-
-.user-icon {
-    width: 35px;
-    height: 35px;
-    vertical-align: middle;
-}
-
-.carousel-title {
     text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.text-charcoal-grey {
+  }
+  
+  .users-user-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-bottom: -10px;
+    margin-right: 90px;
+  }
+  
+  .text-charcoal-grey {
     color: #2d2d32;
-}
-.u-m-r--10 {
-    margin-left: 70px !important;
-}
-.u-text--bold {
+  }
+  
+  .u-m-r--10 {
+    margin-left: 130px !important;
+  }
+  
+  .u-text--bold {
     font-weight: 700;
     font-size: 50px;
-}
+    position: relative;
+    top: -80px !important;
+  }
+  
+  .newfifth-part {
+    height: 340px;
+    background-color: white;
+  }
+  
+  .user-details {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -70px;
+  }
+  
+  .user-user-name {
+    display: inline;
+    color: #2d2d32 !important;
+    font-size: 14px;
+  }
+  
+  .date {
+    display: flex;
+    color: #b4b4be;
+    font-size: 14px;
+    margin-top: -2px;
+    margin-left: 630px;
+  }
+  
+  .new-div {
+    text-align: left !important;
+    margin-left: 30px;
+    margin-top: -25px;
+  }
+  
+  .my-users {
+    margin-left: 630px;
+    margin-bottom: 3px;
+    font-weight: 700;
+  }
+  .first-colon {
+    font-weight: 700;
+    font-size: 50px !important;
+    margin-left: 100px !important;
+    position: relative;
+    top: -80px; /* Increased the negative value */
+    color: #2d2d32;
+  }
+  
+  .second-colon {
+    font-weight: 700;
+    font-size: 50px !important;
+    margin-left: 130px !important;
+    position: relative;
+    top: -80px; /* Increased the negative value */
+    color: #2d2d32;
+  }
+  
+  .third-colon {
+    font-weight: 700;
+    font-size: 50px !important;
+    margin-left: 200px !important;
+    position: relative;
+    top: -80px; /* Increased the negative value */
+    color: #2d2d32;
+  }
+  
+  .fourth-colon {
+    font-weight: 700;
+    font-size: 50px !important;
+    margin-left: 130px !important;
+    position: relative;
+    top: -80px; /* Increased the negative value */
+    color: #2d2d32;
+  }
+  
+  .fifth-colon {
+    font-weight: 700;
+    font-size: 50px !important;
+    margin-left: 250px !important;
+    position: relative;
+    top: -80px; /* Increased the negative value */
+    color: #2d2d32;
+  }
+  
