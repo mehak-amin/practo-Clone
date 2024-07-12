@@ -132,7 +132,7 @@ function NavBar() {
           </ul>
         </div>
       </nav>
-      <hr className="sectionn-divider" />
+     
     </div>
   );
 }

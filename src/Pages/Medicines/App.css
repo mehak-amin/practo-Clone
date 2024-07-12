@@ -23,9 +23,10 @@ body, html {
 }
 .sectionn-divider {
   width: 100%;
-  margin: 10px  !important;
+ 
   border: none;
   border-top: 1.5px solid #aca3a3;
+  margin-bottom: 10px !important;
   }
   
 

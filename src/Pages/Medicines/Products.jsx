@@ -15,6 +15,21 @@ function Products() {
     { text: 'SHELCAL 500MG TABLET 15`S', imgSrc: '/logo/shelcal-500mg-tablet-15-s.jpeg', paragraph: '₹144.30' },
     { text: 'SHELCAL HD TABLET  15`S', imgSrc: '/logo/shelcal-hd-tablet-15-s_.jpeg', paragraph: '₹150.90' },
     { text: 'DETTOL ANTISEPTIC LIQUID 550ML', imgSrc: '/logo/dettol-antiseptic-liquid-550ml_.jpeg', paragraph: '₹235.46' },
+    { text: 'AHAGLOW S FACE WASH F  100ML', imgSrc: '/logo/ahaglow-s-face-wash-f-.jpeg', paragraph: '₹743.00' },
+    { text: 'SIMILAC ADVANCE STAGE 1  400GM', imgSrc: '/logo/similac-advance-stage-1-.jpeg', paragraph: '₹910.00' },
+    { text: 'SIMILAC ADVANCE 2 POWDER 400GM', imgSrc: '/logo/similac-advance-2-powder-400gm_02.jpeg', paragraph: '₹910.00' },
+    { text: 'CERELAC STAGE 4 MULTIGRAIN DAL VEG REFILL  300GM', imgSrc: '/logo/cerelac-multigrain-dal-veg-stage-4-refill.jpeg', paragraph: '₹322.00' },
+    { text: 'TEDIBAR SOAP  75GM', imgSrc: '/logo/tedibar-soap-75gm_dfb62b.jpeg', paragraph: '₹199.00' },
+    { text: 'VIZYLAC Capsule 15`S', imgSrc: '/logo/vizylac-capsule-15-s_78ec23f9-6a.jpeg', paragraph: '₹83.70' },
+    { text: 'ACNE OC MOISTURIZER 75GM', imgSrc: '/logo/acne-oc-moisturizer-75gm_36.jpeg', paragraph: '₹576.00' },
+    { text: 'NEUROBION FORTE TABLET  30`S', imgSrc: '/logo/neurobion-forte-tablet-immunity-bo.jpeg', paragraph: '₹41.70' },
+    { text: 'DETTOL ANTISEPTIC LIQUID 250ML', imgSrc: '/logo/dettol-antiseptic-liquid-250ml_.jpeg', paragraph: '₹140.54' },
+    { text: 'ACNEMOIST CREAM  60GM', imgSrc: '/logo/acnemoist-cream-60gm_dbf1d.jpeg', paragraph: '₹409.00' },
+    { text: 'TONOFERON DROP 15ML', imgSrc: '/logo/tonoferon-drop-15ml_ca1fe6.jpeg', paragraph: '₹97.00' },
+    { text: 'MEGANEURON OD PLUS CAPSULE  10`S', imgSrc: '/logo/meganeuron-od-plus-capsule-10-s.jpeg', paragraph: '₹160.00' },
+    { text: 'DEXOLAC 1 REFILL 400GM', imgSrc: '/logo/dexolac-1-refill-400gm_ff2.jpeg', paragraph: '₹460.00' },
+    { text: 'ACNE UV SPF50+ GEL 50GM', imgSrc: '/logo/acne-uv-spf50-gel-50gm_4babcb1a-b0f6-4aad-aaab-ca4b66924ebe.jpeg', paragraph: '₹915.00' },
+    { text: 'VOLINI SPRAY 60ML', imgSrc: '/logo/volini-spray-60ml_a21a3261-fa5a-44c1-95f4-07fb679a522c.jpeg', paragraph: '₹220.00' },
   ];
 
   const [currentStartIndexProduct, setCurrentStartIndexProduct] = useState(0);
