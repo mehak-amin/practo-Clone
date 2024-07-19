@@ -5,7 +5,7 @@ function Products() {
   const ProductData = [
     { text: (<><span>NAN PRO 2  REFILL </span> <br></br><span> 400gm   </span></>), imgSrc: '/logo/nan-pro-2-.jpeg', paragraph: '₹825.00' },
     { text: 'PEDIASURE VANILLA JAR 400GM', imgSrc: '/logo/pediasure-vanilla-jar-.jpeg', paragraph: '₹840.00' },
-    { text: (<><span>ZINCOVIT TABLET</span> <br/><span>Covid_essentials 15`S</span></>), imgSrc: '/logo/zincovit-tablet-15-s.jpeg', paragraph: '₹109.95' },
+    { text: 'ZINCOVIT TABLET  Covid_essentials 15`S', imgSrc: '/logo/zincovit-tablet-15-s.jpeg', paragraph: '₹109.95' },
     { text: 'NAN PRO 4 FOLLOW UP FORMULA REFILL 400GM', imgSrc: '/logo/nan-pro-4-follow-up.jpeg', paragraph: '₹825.00' },
     { text: 'CERELAC STAGE 1 WHEAT APPLE REFILL 300GM', imgSrc: '/logo/cerelac-wheat-.jpeg', paragraph: '₹275.00' },
     { text: 'ELECTRAL POWDER Covid_essentials 21.8GM', imgSrc: '/logo/electral-powder-21.jpeg', paragraph: '₹22.66' },

@@ -1,0 +1,140 @@
+/* FirstFile.css */
+
+#FirstFold {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.pink {
+  background-color: #f8e9e6;
+  padding: 3px;
+  margin-left: -20px !important;
+  margin-top: -30px !important;
+  height: 430px;
+  margin-right: -80px !important;
+}
+
+.first-fold {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px !important;
+}
+
+.content {
+  flex: 1;
+  padding-right: 20px;
+  margin-top: 10px !important;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.heading h1 {
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+
+
+.link {
+  text-decoration: none;
+}
+
+.primary-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white; /* Ensure the text is white */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none; /* Remove any border */
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+  color: white; /* Maintain white text on hover */
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.additional-value-prop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.additional-value-prop i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.additional-value-prop p {
+  font-size: 14px;
+  margin: 0;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.imgBanner {
+  width: 630px !important;
+  height: 360px !important;
+  margin-top: 50px;
+  margin-left: -150px !important;
+  object-fit: contain;
+}
+
+.th-img {
+  width: 33px;
+  margin-top: 10px;
+}
+
+#docCount {
+  margin-top: 15px;
+}
+
+#spinner {
+  color: rgb(139, 208, 35) !important;
+  width: 12px;
+  height: 11px;
+  margin-left: 10px;
+  margin-top: 21px;
+}
+
+.bttn {
+
+  padding-top: 10px;
+padding-bottom: 10px;
+width: 170px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  background: #199fd9;
+  color: white; /* Ensure the text is white */
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #199fd9;
+}
+
+
+
+.additional-icons {
+  font-size: 15px;
+}
+
+.spl-btn {
+  color: black !important;
+  background-color: white !important;
+  font-size: 14px;
+  font-weight: 550 !important;
+  border-radius: 10px !important;
+}

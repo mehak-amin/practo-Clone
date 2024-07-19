@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './AfterCard.css'; // Ensure correct path to your CSS file
 
 // import SearchBox from './SearchBox';

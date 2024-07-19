@@ -6,6 +6,8 @@ import { Routes, Route } from 'react-router-dom';
 import FindDoctor from './Pages/FindDoctors/FindDoctor';
 import Surgeries from './Pages/Surgeries/Surgeries';
 import Medicines from './Pages/Medicines/Medicines';
+import VideoConsult from './Pages/VideoConsult/VideoConsult';
+
 
 
 
@@ -31,6 +33,7 @@ function App() {
         <Route path='/findDoctors' element={<FindDoctor />}/>
         <Route path='/surgeries' element={<Surgeries />}/>
         <Route path='/medicines' element={<Medicines />}/>
+        <Route path='/videoConsult' element={<VideoConsult />}/>
        
          
       </Routes>

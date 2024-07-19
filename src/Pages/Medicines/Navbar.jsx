@@ -58,7 +58,7 @@ function NavBar() {
           </div>
           <ul className="nav-links left">
             <li><Link to="/findDoctors">Find Doctors</Link></li>
-            <li><a href="#">Video Consult</a></li>
+            <li><Link to="/videoConsult">Video Consult</Link></li>
             <li><Link to="/surgeries">Surgeries</Link></li>
             <li><Link to="/medicines">Medicines</Link></li>
           </ul>
