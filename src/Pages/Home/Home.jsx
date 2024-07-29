@@ -1,9 +1,9 @@
 import './App.css'; 
 import Card from './card';
-import AfterCard from './AfterCard';
+
 import SecondCard from './SecondCard';
-import SearchBox from './SearchBox';
-import AfterCard2 from './AfterCard2';
+
+
 import ThirdCard from './ThirdCard';
 import FourthPart from './FourthPart'; 
 import FifthPart from './FifthPart';
@@ -21,12 +21,12 @@ function Home() {
       <Navbar/>
      
      
-      <SearchBox/>
+    
 
       <Card/>
-      <AfterCard/>
+    
       <SecondCard/>
-      <AfterCard2/>
+    
       <ThirdCard/>
       <FourthPart /> 
       <FifthPart/>

@@ -12,34 +12,33 @@ function FifthPart() {
 
   return (
     <div className="fifth-part">
-      <h2 className="carousel-title">What our users have to say</h2>
-      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-       
+    <h2 className="carousel-title">What our users have to say</h2>
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          {carouselItems.map((item, index) => (
-            <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-              <div className="d-block w-100 carousel-itemm-first-one">
-                <div className="carousel-caption d-md-block">
-                  <p className="para" dangerouslySetInnerHTML={{ __html: item.content }}></p>
-                  <div className="u-d__inline-block u-t-left u-v-middle u-margin--10__left">
-                    <img src='\logo\p8dow26e.png' alt="User Icon" className="user-icon" />
-                    <div className="user-name">{item.userName}</div>
-                  </div>
+            {carouselItems.map((item, index) => (
+                <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
+                    <div className="d-block w-100 carousel-itemm-first-one">
+                        <div className="carousel-caption d-md-block">
+                            <p className="para" dangerouslySetInnerHTML={{ __html: item.content }}></p>
+                            <div className="u-d__inline-block u-t-left u-v-middle u-margin--10__left">
+                                <img src='\logo\p8dow26e.png' alt="User Icon" className="user-icon" />
+                                <div className="user-name">{item.userName}</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          ))}
+            ))}
+             <button className="carousel-control-previ new-previous" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <div className="carousel-control-nextt" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
+        </div>
+       
     </div>
+</div>
+
   );
 }
 

@@ -144,3 +144,6 @@
     font-weight: bold;
     color: #414146;
   }
+
+  /* ----------------------RESPONSIVE ------------------------------- */
+  @media (max-width: 600px) {}

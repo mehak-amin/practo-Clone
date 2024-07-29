@@ -13,32 +13,18 @@
     background-color: white;
 }
 
-.carousel-indicators button {
-    background-color: gray;
+
+.carousel-control-nextt{
+    margin-left: 1150px !important;
+    margin-top: -50px !important;
+    width: 50px;
+}
+.carousel-control-previ{
+    margin-top: 40px !important;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-image: none;
-}
 
-.carousel-control-prev-icon {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: -30px;
-    transform: rotate(135deg);
-    margin-left: 30px !important;
-}
 
-.carousel-control-next-icon {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: -30px;
-    transform: rotate(-45deg);
-    margin-right: 30px !important;
-}
 
 .carousel-inner {
     width: 100%;
@@ -95,4 +81,79 @@
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.fifth-part {
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.carousel {
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+/* -----------------RESPONSIVE -----------------*/
+
+@media (max-width: 500px) {
+   
+
+    .carousel-title {
+        font-size: 20px; /* Further reduce font size */
+    }
+
+    .para {
+        font-size: 14px; /* Further reduce font size */
+    }
+
+    .user-icon {
+        width: 25px; /* Further reduce user icon size */
+        height: 25px; /* Further reduce user icon size */
+    }
+
+    .fifth-part {
+        max-width: 495px; /* Further reduce max width on small screens */
+    }
+
+   
+    .carousel-control-previ {
+        margin-left: -10px; /* Adjust margins to fit better */
+        margin-top: 0; /* Center vertically */
+    }
+    .carousel-control-nextt{
+        margin-left: 420px !important;
+        margin-top: -50px !important;
+        width: 30px;
+
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .carousel-title {
+        font-size: 24px; /* Medium size */
+    }
+
+    .para {
+      
+        font-size: 15px;
+      
+    }
+
+    .user-icon {
+        width: 30px; /* Medium size */
+        height: 30px; /* Medium size */
+    }
+
+    .fifth-part {
+        max-width: 550px; /* Wider max width */
+    }
+
+   
+    .carousel-control-previ {
+        margin-left: 20px; /* Adjust margin for medium screens */
+    }
+    .carousel-control-nextt{
+        margin-left: 450px !important;
+        margin-top: -50px !important;
+        width: 30px;
+
+    }
+ 
 }

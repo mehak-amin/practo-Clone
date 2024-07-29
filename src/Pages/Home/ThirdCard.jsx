@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './ThirdCard.css';
 
 function ThirdCard() {
@@ -15,9 +15,36 @@ function ThirdCard() {
   ];
 
   const [currentStartIndex, setCurrentStartIndex] = useState(0);
+  const [itemsPerSlide, setItemsPerSlide] = useState(4);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+      let newItemsPerSlide;
+      if (width <= 500) {
+        newItemsPerSlide = 2;
+      } else if (width > 500 && width <= 710) {
+        newItemsPerSlide = 2;
+      } else if (width > 710 && width <= 810) {
+        newItemsPerSlide = 3;
+      } else {
+        newItemsPerSlide = 4;
+      }
+      setItemsPerSlide(newItemsPerSlide);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Initial setting
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const nextSlide = () => {
-    if (currentStartIndex + 4 < ThirdcardData.length) {
+    if (currentStartIndex + itemsPerSlide < ThirdcardData.length) {
       setCurrentStartIndex(currentStartIndex + 1);
     }
   };
@@ -30,38 +57,48 @@ function ThirdCard() {
 
   const getVisibleCards = () => {
     const visibleCards = [];
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < itemsPerSlide; i++) {
       visibleCards.push(ThirdcardData[currentStartIndex + i]);
     }
     return visibleCards;
   };
 
   return (
-    <div className="ThirdCard-container">
-      <div className="carousel-container">
-        {getVisibleCards().map((card, index) => (
-          <div className="Thirdicon-section" key={index}>
-            <img src={card.imgSrc} alt={card.text} className="Thirdrounded-image" />
-            <p className="cardText">{card.text}</p>
-            <p className="description">{card.paragraph}</p>
+    <div>
+      <div className="header-container">
+        <div className="header-content">
+          <div className="text-section">
+            <h3 className='text-colr'>Book an appointment for an in-clinic consultation</h3>
+            <p className='para-colr'>Find experienced doctors across all specialties</p>
           </div>
-        ))}
+        </div>
       </div>
-      {currentStartIndex > 0 && (
-        <div className="carousel-control-prev carousel-arrow-container">
-          <button className="carousel-arrow" type="button" onClick={prevSlide}>
-            <span className="carousel-arrow-icon">&#9664;</span>
-          </button>
+      <div className="ThirdCard-container">
+        <div className="carousel-container">
+          {getVisibleCards().map((card, index) => (
+            <div className="Thirdicon-section" key={index}>
+              <img src={card.imgSrc} alt={card.text} className="Thirdrounded-image" />
+              <p className="cardText">{card.text}</p>
+              <p className="description">{card.paragraph}</p>
+            </div>
+          ))}
         </div>
-      )}
-      {currentStartIndex + 4 < ThirdcardData.length && (
-        <div className="carousel-control-next carousel-arrow-container">
-          <button className="carousel-arrow" type="button" onClick={nextSlide}>
-            <span className="carousel-arrow-icon">&#9654;</span>
-          </button>
-        </div>
-      )}
-      <hr className="section-divider" />
+        {currentStartIndex > 0 && (
+          <div className="carousel-control-prev carousel-arrow-container">
+            <button className="carousel-arrow-three" type="button" onClick={prevSlide}>
+              <span className="carousel-arrow-icon-three">&#9664;</span>
+            </button>
+          </div>
+        )}
+        {currentStartIndex + itemsPerSlide < ThirdcardData.length && (
+          <div className="carousel-control-next carousel-arrow-container">
+            <button className="carousel-arrow-three" type="button" onClick={nextSlide}>
+              <span className="carousel-arrow-icon-three">&#9654;</span>
+            </button>
+          </div>
+        )}
+        <hr className="section-divider" />
+      </div>
     </div>
   );
 }

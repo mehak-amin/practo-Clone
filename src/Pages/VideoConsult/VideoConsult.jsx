@@ -1,7 +1,7 @@
 import Navbar from "../Home/Navbar"
 import FirstFile from "./FirstFile"
 import HealthCard from "./HealthCard"
-import SpecialitiesCard from "./SpecialitiesCard"
+ import SpecialitiesCard from "./SpecialitiesCard"
 import OurDr from "./OurDr"
 import WorkContent from "./WorkContent"
 
@@ -15,7 +15,7 @@ export default function VideoConsult() {
       <Navbar/>
       <FirstFile/>
    
-      <SpecialitiesCard/>
+       <SpecialitiesCard/> 
       <HealthCard/>
       <OurDr/>
       <WorkContent/>
