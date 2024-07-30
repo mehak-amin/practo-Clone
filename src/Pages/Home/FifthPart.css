@@ -1,5 +1,5 @@
 .carousel-itemm-first-one {
-    height: 200px;
+    height: 223px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +125,7 @@
 
     }
 }
-@media (min-width: 501px) and (max-width: 600px) {
+@media (min-width: 501px) and (max-width: 550px) {
     .carousel-title {
         font-size: 24px; /* Medium size */
     }
@@ -154,6 +154,80 @@
         margin-top: -50px !important;
         width: 30px;
 
+    }
+ 
+}
+@media (min-width: 551px) and (max-width: 600px) {
+    .carousel-title {
+        font-size: 26px; /* Medium size */
+    }
+
+    .para {
+      
+        font-size: 16px;
+      
+    }
+
+    .user-icon {
+        width: 30px; /* Medium size */
+        height: 30px; /* Medium size */
+    }
+
+    .fifth-part {
+        max-width: 600px; /* Wider max width */
+    }
+
+   
+    .carousel-control-previ {
+        margin-left: 20px; /* Adjust margin for medium screens */
+    }
+    .carousel-control-nextt{
+        margin-left: 480px !important;
+        margin-top: -50px !important;
+        width: 30px;
+
+    }
+ 
+}
+@media (min-width: 601px) and (max-width: 630px) {
+    .carousel-title {
+        font-size: 26px; /* Medium size */
+        margin-bottom: 10px !important;
+    }
+
+    .para {
+      
+        font-size: 16px;
+      
+    }
+
+    .user-icon {
+        width: 30px; /* Medium size */
+        height: 30px; /* Medium size */
+    }
+
+    .fifth-part {
+        max-width: 650px; /* Wider max width */
+    }
+
+   
+    .carousel-control-previ {
+        margin-left: -20px; /* Adjust margin for medium screens */
+    }
+    .carousel-control-nextt{
+        margin-left: 535px !important;
+        margin-top: -50px !important;
+        width: 30px;
+
+    }
+    .carousel-itemm-first-one {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin-top: -50px !important; /* Adjusted to move content up */
+        margin-bottom: 30px !important;
     }
  
 }

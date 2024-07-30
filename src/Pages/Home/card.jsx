@@ -3,7 +3,7 @@ import './App.css';
 
 function Card() {
   return (
-   <div>
+   <div >
      <div className="app-container">
       <div className="column one">
         <img src='/logo/mapl.jpeg' alt="Logo" className="logo-img" />
@@ -18,7 +18,7 @@ function Card() {
     {/* consult card */}
 
      <div className="card-container-ist-page">
-      <div className="card custom-card">
+      <div className="card custom-card card-first">
         <div className="img-wrapper">
           <img src="\logo\dweb_instant_video_consulation.png" className="card-img-top" alt="Instant Video Consultation" />
         </div>

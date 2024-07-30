@@ -1,36 +1,33 @@
 .footerSection {
-  background-color: #28328c; /* Example background color */
-  color: white; /* Default text color */
-  height: 500px;
+  background-color: #28328c;
+  color: white;
+  height: auto;
 }
 
 .footerSection .nav-link {
-  color: white !important; /* Override Bootstrap text color */
+  color: white !important;
   font-size: 14px;
-  padding: 0; /* Remove padding */
-  margin-bottom: -10px; /* Reduce the gap between items */
+  padding: 0;
+  margin-bottom: -10px;
 }
 
 .footerSection h6 {
-  color: white; /* Ensure the section headers are also white */
+  color: white;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 8px; /* Reduce the gap between header and items */
+  margin-bottom: 8px;
+  cursor: pointer; /* Make headers clickable */
 }
 
 .footerSection .nav-item {
-  margin-bottom: 4px; /* Reduce the gap between items */
+  margin-bottom: 4px;
 }
 
 .newSection {
   margin-top: 10px;
 }
 
-.logoImage {
-  display: block;
-  margin-left: 400px;
-  margin-top: 30px;
-}
+
 
 .paracolour {
   color: #b8bbd9 !important;
@@ -39,7 +36,59 @@
   font-weight: bold;
 }
 
-/* Add underline on hover for footer links */
 .footerSection .nav-link:hover {
   text-decoration: underline;
+}
+ .justify-content-center {
+  margin-top: 60px !important;
+}
+.py-5 {
+
+  height: 550px !important;
+}
+
+/* Responsive styles */
+@media (max-width: 500px) {
+  .footerSection .row {
+    flex-direction: column; /* Stack columns vertically */
+  }
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:left !important;
+}
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:474px !important;
+}
+.paracolour {
+
+  margin-left: 10px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+.plus{
+  margin-left: 110px !important;
+}
 }
