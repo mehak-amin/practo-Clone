@@ -3,7 +3,7 @@ import './App.css';
 
 function Card() {
   return (
-   <div >
+   <div className='responsive-card'>
      <div className="app-container">
       <div className="column one">
         <img src='/logo/mapl.jpeg' alt="Logo" className="logo-img" />

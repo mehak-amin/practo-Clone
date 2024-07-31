@@ -64,7 +64,7 @@ function ThirdCard() {
   };
 
   return (
-    <div>
+    <div className='responsive-third'>
       <div className="header-container">
         <div className="header-content">
           <div className="text-section">

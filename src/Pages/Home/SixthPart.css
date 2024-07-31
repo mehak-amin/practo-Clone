@@ -146,7 +146,8 @@
   }
 
   /* ----------------------RESPONSIVE ------------------------------- */
-  @media (max-width: 600px) {
+ 
+  @media (max-width: 497px) {
     .custom-img {
       width: 150px !important;
       height: 200px !important;
@@ -233,3 +234,1135 @@
   }
   
   }
+  @media (min-width: 498px) and (max-width: 520px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 494px !important;
+      
+    }
+
+    .image{
+    width:300px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 175px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    padding: -10px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 521px) and (max-width: 560px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 540px !important;
+      
+    }
+
+    .image{
+    width:300px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 175px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    padding: -10px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 561px) and (max-width: 570px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 560px !important;
+      
+    }
+
+    .image{
+    width:300px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 175px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    padding: -10px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 571px) and (max-width: 580px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 560px !important;
+      
+    }
+
+    .image{
+    width:300px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 175px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    padding: -10px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 581px) and (max-width: 590px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 569px !important;
+      
+    }
+
+    .image{
+    width:300px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 175px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    padding: -10px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 591px) and (max-width: 600px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 579px !important;
+      
+    }
+
+    .image{
+    width:300px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 175px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    padding: -10px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 601px) and (max-width: 610px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 585px !important;
+      
+    }
+
+    .image{
+    width:300px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 175px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    padding: -10px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 611px) and (max-width: 620px){
+    .custom-img {
+      width: 150px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 595px !important;
+      
+    }
+
+    .image{
+    width:310px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 180px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    /* flex-grow: 1; */
+    padding: -20px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 621px) and (max-width: 630px){
+    .custom-img {
+      width: 160px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 615px !important;
+      
+    }
+
+    .image{
+    width:310px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+    .paragraphText{
+    font-size: 13px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 180px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    /* flex-grow: 1; */
+    padding: -20px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 631px) and (max-width: 640px){
+    .custom-img {
+      width: 160px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 615px !important;
+      
+    }
+
+    .image{
+    width:310px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 21px;
+  }
+    .paragraphText{
+    font-size: 14px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 180px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    /* flex-grow: 1; */
+    padding: -20px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 641px) and (max-width: 650px){
+    .custom-img {
+      width: 160px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 630px !important;
+      
+    }
+
+    .image{
+    width:310px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 21px;
+  }
+    .paragraphText{
+    font-size: 14px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 180px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    /* flex-grow: 1; */
+    padding: -20px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 651px) and (max-width: 660px){
+    .custom-img {
+      width: 160px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 640px !important;
+      
+    }
+
+    .image{
+    width:310px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 21px;
+  }
+    .paragraphText{
+    font-size: 14px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 180px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    /* flex-grow: 1; */
+    padding: -20px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  @media (min-width: 661px) and (max-width: 670px){
+    .custom-img {
+      width: 160px !important;
+      height: 200px !important;
+      margin-left: -280px;
+      border: none !important; /* Removes the border */
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .sixthcontainer {
+  
+      background-color: #f8f8fb !important;
+      margin-top: 50px;
+      text-align: left; /* Changed to left align text */
+      height: 470px !important;
+      padding: 20px; /* Added padding for better spacing */
+      width: 650px !important;
+      
+    }
+
+    .image{
+    width:310px !important;
+    margin-right: -70px !important;
+    margin-left: 10px !important;
+  
+   }
+   .titleText {
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 21px;
+  }
+    .paragraphText{
+    font-size: 14px !important;
+  }
+  .phone-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* overflow: hidden; */
+    width: 180px !important;
+    height: 40px;
+  }
+  .phone-input {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    /* flex-grow: 1; */
+    padding: -20px;
+
+  }
+  .phoneButton {
+    background-color:  #27c4f8;
+    color: white;
+    width: 65px; /* Adjust width as needed */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left: px;  */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -25px !important;
+  }
+  .downloadButtonOne{
+  
+
+    font-size: 12px;
+  }
+  .downloadButtonOne svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  .downloadButtonTwo{
+    font-size: 12px;
+  }
+  .downloadButtontwo svg {
+    width: 10px !important; /* Adjust icon size as needed */
+    margin-right: 8px; /* Added margin on the right of the icon */
+  }
+  
+  }
+  

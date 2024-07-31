@@ -200,6 +200,13 @@
     box-shadow: none; /* Optional: subtle shadow */
     cursor: pointer; /* Adds a pointer cursor on hover */
   }
+  .responsive-third{
+    width: 470px !important;
+  }
+  .header-container {
+   
+    width: 465px;
+}
 }
 @media (min-width: 551px) and (max-width: 568px){
   .Thirdicon-section {

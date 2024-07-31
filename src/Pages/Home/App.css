@@ -75,9 +75,8 @@
 }
 
 
-
 /* Mobile styles */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .menu-icon {
     display: block;
     position: absolute;
@@ -143,12 +142,94 @@
   
 .nav-logo {
   color: #fff;
-  margin-left: -350px !important;
+  margin-left: -250px !important;
+}
+.sectionn-divider{
+ width:470px !important;
+}
+
+  .navbar-container {
+    width: 470px !important; /* Set to 470px */
+    flex: 0 0 auto; /* Prevent stretching */
+  }
+
+}
+@media (min-width: 501px) and (max-width: 600px){
+  .menu-icon {
+    display: block;
+    position: absolute;
+    left: 290px;
+    top: -4px;
+    z-index: 1100; /* Ensure the icon is above the menu */
+  }
+
+
+.nav-mid{
+  margin-left:5px !important;
+}
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -30px !important;
+  }
+
+  .nav-mid, .nav-right {
+    width: 100%;
+  }
+
+  .nav-mid {
+    display: none; /* Hide initially */
+   background-color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .nav-right {
+    display: none; /* Hide initially */
+    background-color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .nav-mid.mobile-menu-open, .nav-right.mobile-menu-open {
+    display: block; /* Show when mobile menu is open */
+  }
+
+  .nav-links.left, .nav-links.right {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-links.left li, .nav-links.right li {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav-links a {
+    padding: 1rem;
+    color: #fff; /* Set text color for better visibility */
+    text-decoration: none;
+    display: block;
+  }
+
+  .nav-links a:hover {
+    background-color: #bcb7b7; /* Optional: Add a hover effect */
+  }
+  
+.nav-logo {
+  color: #fff;
+  margin-left: -270px !important;
 }
 .sectionn-divider{
  width:500px !important;
 }
+
 }
+
+
+
 
 /* Dropdown styles */
 .dropdownplz-menu {
@@ -275,6 +356,9 @@
     margin-left: 50px !important;
 
   }
+  .responsive-card{
+    width:500px !important
+  }
 }
 @media (min-width: 501px) and (max-width: 600px) {
   .custom-card.card-third {
@@ -286,7 +370,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 80px;
-    margin-left: -770px !important;
+    margin-left: -10px !important;
     margin-bottom: 80px !important;
   }
 }
@@ -298,7 +382,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 80px;
-    margin-left: -650px !important;
+    margin-left: -150px !important;
     margin-bottom: 80px !important;
   }
   .custom-card {
@@ -317,14 +401,39 @@
   }
 
 }
-@media (min-width: 631px) and (max-width: 690px){
+@media (min-width: 631px) and (max-width: 660px){
   .card-container-ist-page {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
     margin-top: 80px;
-    margin-left: -620px !important;
+    margin-left: -220px !important;
+    margin-bottom: 80px !important;
+  }
+  .custom-card {
+    border: 1px solid white !important; /* Ensure the border is white */
+    border-radius: 25px !important;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .12);
+    width: 180px !important; /* Fixed width for all cards */
+    height: 260px !important ; /* Fixed height for all cards */
+  }
+  .custom-card img {
+    width:auto !important;
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-left: -20px !important;
+  }
+}
+@media (min-width: 661px) and (max-width: 690px){
+  .card-container-ist-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+    margin-left: -520px !important;
     margin-bottom: 80px !important;
   }
   .custom-card {
@@ -483,11 +592,11 @@
 
 /* responsive  */
 
-@media (min-width: 276px) and (max-width: 500px) {
+@media (min-width: 276px) and (max-width: 530px) {
   /* Your CSS rules here */
   .app-container {
     display: flex;
-    width: 412px;
+    width:400px !important;
     margin-left: 20px;
     margin-top: 30px;
   }
@@ -506,8 +615,11 @@
     display: inline !important;
     color: gray;
   }
+  .responsive-card{
+    width:500px !important
+  }
 }
-@media (min-width: 501px) and (max-width: 800px) {
+@media (min-width: 51px) and (max-width: 800px) {
   /* Your CSS rules here */
   .app-container {
     display: flex;
@@ -571,7 +683,7 @@ font-weight: bold;
     align-items: center;
     padding: 10px;
     margin-top: 40px;
-    width:630px;
+    width: 500px;
   }
   .header-content {
     display: flex;
@@ -590,7 +702,7 @@ font-weight: bold;
     .button-section {
       /* flex-shrink: 0; */
       margin-top: -70px !important;
-      margin-right: 145px  !important;
+      margin-right: 20px !important;
     }
     
     .btn {
@@ -630,7 +742,7 @@ font-weight: bold;
     .button-section {
       /* flex-shrink: 0; */
       margin-top: -70px !important;
-      margin-right:  135px  !important;
+      margin-right: -10px  !important;
     }
     
     .btn {

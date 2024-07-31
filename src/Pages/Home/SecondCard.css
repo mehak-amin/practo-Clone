@@ -170,13 +170,18 @@ body {
     display: flex; /* Show arrows on small screens */
   }
   .carousel-arrow-next{
-    margin-left: 70px !important;
+    margin-left: -10px !important;
     margin-top: 40px;
   }
   .carousel-arrow-prev{
-    margin-left: -60px !important;
+    margin-left: 30px !important;
     margin-top: 40px;
   }
+  .carousel-control-next {
+    right: 0;
+    width: 30px !important;
+    margin-right: 20px;
+}
 }
 
 
@@ -221,13 +226,18 @@ body {
     display: flex; /* Show arrows on small screens */
   }
   .carousel-arrow-next{
-    margin-left: -40px !important;
+    margin-left: 40px !important;
     margin-top: 55px;
   }
   .carousel-arrow-prev{
-    margin-left: 80px !important;
+    margin-left: 10px !important;
     margin-top: 40px;
   }
+  .carousel-control-next {
+    right: 0;
+    width: 20px !important;
+    margin-right:30px;
+}
 }
 @media (min-width: 531px) and (max-width: 570px){
   .card-containernew {
@@ -270,11 +280,11 @@ body {
     display: flex; /* Show arrows on small screens */
   }
   .carousel-arrow-next{
-    margin-left: -10px !important;
+    margin-left: 40px !important;
     margin-top: 55px;
   }
   .carousel-arrow-prev{
-    margin-left: 80px !important;
+    margin-left: 10px !important;
     margin-top: 40px;
   }
 
@@ -325,7 +335,7 @@ body {
     margin-top: 55px;
   }
   .carousel-arrow-prev{
-    margin-left: 80px !important;
+    margin-left: 20px !important;
     margin-top: 40px;
   }
 
@@ -372,11 +382,11 @@ body {
     display: flex; /* Show arrows on small screens */
   }
   .carousel-arrow-next{
-    margin-left: 130px !important;
+    margin-left: 170px !important;
     margin-top: 55px;
   }
   .carousel-arrow-prev{
-    margin-left: 80px !important;
+    margin-left: 10px !important;
     margin-top: 40px;
   }
 
@@ -422,11 +432,11 @@ body {
     display: flex; /* Show arrows on small screens */
   }
   .carousel-arrow-next{
-    margin-left: -500px !important;
+    margin-left: -400px !important;
     margin-top: 55px;
   }
   .carousel-arrow-prev{
-    margin-left: 20px !important;
+    margin-left: -50px !important;
     margin-top: 55px;
   }
 }
@@ -471,11 +481,11 @@ body {
     display: flex; /* Show arrows on small screens */
   }
   .carousel-arrow-next{
-    margin-left: -420px !important;
+    margin-left: -340px !important;
     margin-top: 55px;
   }
   .carousel-arrow-prev{
-    margin-left: 20px !important;
+    margin-left: -60px !important;
     margin-top: 55px;
   }
 
