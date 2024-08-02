@@ -25,7 +25,7 @@ function ThirdCard() {
         newItemsPerSlide = 2;
       } else if (width > 500 && width <= 710) {
         newItemsPerSlide = 2;
-      } else if (width > 710 && width <= 810) {
+      } else if (width > 710 && width <= 1050) {
         newItemsPerSlide = 3;
       } else {
         newItemsPerSlide = 4;

@@ -7,6 +7,7 @@
     padding-left: 100px;
     margin-right: 10px !important;
     margin-top: 30px !important;
+    width:1170px;
   }
   
   .fourthicon-section {
@@ -56,11 +57,13 @@
     
   }
   
-  .section-divider {
+  .section-divider{
     width: 100%;
-    margin: 20px 0;
+    
     border: none;
     border-top: 1px solid #aca3a3;
+    margin-left: 10px;
+    margin-top: 20px;
   }
   
   .fourthtext-colr {
@@ -119,7 +122,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 150px !important;
     margin-left: -50px;
     margin-right: 0 !important;
   }
@@ -182,7 +185,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 150px !important;
     margin-left:-110px !important;
     margin-right: 0 !important;
   }
@@ -245,7 +248,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 150px !important;
     margin-left:-110px !important;
     margin-right: 0 !important;
   }
@@ -320,7 +323,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 150px !important;
     margin-left:-110px !important;
     margin-right: 0 !important;
   }
@@ -395,7 +398,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 150px !important;
     margin-left:-110px !important;
     margin-right: 0 !important;
   }
@@ -473,7 +476,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 140px !important;
     margin-left: -20px !important;
     margin-right: 0 !important;
     width: 100%; /* Ensure header takes full width */
@@ -551,7 +554,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 140px !important;
     margin-left: -20px !important;
     margin-right: 0 !important;
     width: 100%; /* Ensure header takes full width */
@@ -617,7 +620,7 @@
   }
 }
 
-@media (min-width: 711px) and (max-width: 740px) {
+@media (min-width: 711px) and (max-width: 760px) {
   .fourthCard-container {
     display: flex;
     flex-direction: row; /* Align sections horizontally */
@@ -629,7 +632,7 @@
   }
 
   .fourthheader-content {
-    margin-top: 190px !important;
+    margin-top: 140px !important;
     margin-left: -20px !important;
     margin-right: 0 !important;
     width: 100%; /* Ensure header takes full width */
@@ -694,4 +697,1121 @@
     margin-top: 5px;
   }
 }
+@media (min-width: 761px) and (max-width: 790px) {
+  .fourthCard-container {
+    display: flex;
+    flex-direction: row; /* Align sections horizontally */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    padding-left: 0; /* Remove padding for this screen size */
+    margin-left: 90px !important;
+    width: 610px !important;
+    gap: 30px; /* Add gap between flex items */
+  }
 
+  .fourthheader-content {
+    margin-top: 140px !important;
+    margin-left: -20px !important;
+    margin-right: 0 !important;
+    width: 100%; /* Ensure header takes full width */
+    text-align: center; /* Center header content */
+  }
+
+  .fourthicon-section {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically within each section */
+    align-items: flex-start; /* Align items to the start of the container (left) */
+    flex: 1; /* Allow sections to grow and shrink */
+    max-width: 290px; /* Adjust width as needed */
+    margin-top: 25px;
+    margin-right: 20px; /* Adjust spacing as needed */
+    margin-left: -20px !important;
+  }
+
+  .fourthrounded-image {
+    height: 170px; /* Adjust height for this screen size */
+    width: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+
+  .fourthcardText, .fourthdescription, .fourthdescriptionnn {
+    /* Remove additional margins for better alignment */
+    margin: 0; 
+    padding: 0; 
+    text-align: left; /* Align text to the left */
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 10px; /* Space above the text */
+    margin-bottom: 15px !important;
+  }
+
+  .fourthdescription {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-top: 5px; /* Space between description and title */
+  }
+
+  .fourthdescriptionnn {
+    font-size: 14px;
+    margin-top: 5px; /* Space between description and second paragraph */
+  }
+
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px !important;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}
+@media (min-width: 791px) and (max-width: 820px) {
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-items: center;
+    margin-left: 15px !important;
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+   
+    width: 750px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 230px;
+    margin-top: 25px;
+    margin-right: 20px; /* Adjust the margin-right value as needed */
+    margin-bottom: 20px;
+  }
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription,
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+  }
+
+  .fourthdescription {
+    color: #414146;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .section-divider {
+    width: 100px;
+   
+    border: none;
+    border-top: 2px solid #aca3a3;
+    margin-left: -100px !important;
+   
+    
+  }
+
+  .fourthtext-colr {
+    font-weight: 500;
+    color: #414146;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 28px;
+  }
+
+  .fourthpara-colr {
+    font-size: 13px;
+  }
+
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: -130px; /* Consider reviewing this margin */
+    width: 250px;
+  }
+  
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8; /* No change on hover; consider adjusting */
+  }
+
+  .fourthdescriptionnn {
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+
+  .fourthheader-content {
+    margin-top: 60px !important;
+    margin-left: -80px; /* Combine the two definitions */
+  }
+}
+@media (min-width: 821px) and (max-width: 860px) {
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-items: center;
+    margin-left: 15px !important;
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+   
+    width: 830px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 230px;
+    margin-top: 25px;
+    margin-right: 20px; /* Adjust the margin-right value as needed */
+    margin-bottom: 20px;
+  }
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription,
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+  }
+
+  .fourthdescription {
+    color: #414146;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .section-divider {
+    width: 100px;
+   
+    border: none;
+    border-top: 2px solid #aca3a3;
+    margin-left: -100px !important;
+   
+    
+  }
+
+  .fourthtext-colr {
+    font-weight: 500;
+    color: #414146;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 28px;
+  }
+
+  .fourthpara-colr {
+    font-size: 13px;
+  }
+
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: -130px; /* Consider reviewing this margin */
+    width: 250px;
+  }
+  
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8; /* No change on hover; consider adjusting */
+  }
+
+  .fourthdescriptionnn {
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+
+  .fourthheader-content {
+    margin-top: 60px !important;
+    margin-left: -80px; /* Combine the two definitions */
+  }
+}
+@media (min-width: 861px) and (max-width: 890px) {
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-items: center;
+    margin-left: 15px !important;
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 50px !important;
+   
+    width: 860px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    margin-top: 25px;
+    margin-right: 20px; /* Adjust the margin-right value as needed */
+    margin-bottom: 20px;
+  }
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription,
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+  }
+
+  .fourthdescription {
+    color: #414146;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .section-divider {
+    width: 100px;
+   
+    border: none;
+    border-top: 2px solid #aca3a3;
+    margin-left: -100px !important;
+   
+    
+  }
+
+  .fourthtext-colr {
+    font-weight: 500;
+    color: #414146;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 28px;
+  }
+
+  .fourthpara-colr {
+    font-size: 13px;
+  }
+
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: -130px; /* Consider reviewing this margin */
+    width: 250px;
+  }
+  
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8; /* No change on hover; consider adjusting */
+  }
+
+  .fourthdescriptionnn {
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+
+  .fourthheader-content {
+    margin-top: 60px !important;
+    margin-left: -80px; /* Combine the two definitions */
+  }
+}
+@media (min-width: 891px) and (max-width: 920px) {
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-items: center;
+    margin-left: 15px !important;
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+   
+    width: 860px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    margin-top: 25px;
+    margin-right: -10px; /* Adjust the margin-right value as needed */
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription,
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+  }
+
+  .fourthdescription {
+    color: #414146;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .section-divider {
+    width: 100px;
+   
+    border: none;
+    border-top: 2px solid #aca3a3;
+    margin-left: -100px !important;
+   
+    
+  }
+
+  .fourthtext-colr {
+    font-weight: 500;
+    color: #414146;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 29px;
+  }
+
+  .fourthpara-colr {
+    font-size: 14px;
+  }
+
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: -20px !important;
+    margin-top: -130px; /* Consider reviewing this margin */
+    width: 250px;
+  }
+  
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8; /* No change on hover; consider adjusting */
+  }
+
+  .fourthdescriptionnn {
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+
+  .fourthheader-content {
+    margin-top: 60px !important;
+    margin-left: -80px; /* Combine the two definitions */
+  }
+}
+@media (min-width: 921px) and (max-width: 950px) {
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-items: center;
+    margin-left: 15px !important;
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+   
+    width: 860px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 290px;
+    margin-top: 25px;
+    margin-right: -10px; /* Adjust the margin-right value as needed */
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription,
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+  }
+
+  .fourthdescription {
+    color: #414146;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .section-divider {
+    width: 100px;
+   
+    border: none;
+    border-top: 2px solid #aca3a3;
+    margin-left: -100px !important;
+   
+    
+  }
+
+  .fourthtext-colr {
+    font-weight: 500;
+    color: #414146;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 31px;
+  }
+
+  .fourthpara-colr {
+    font-size: 14px;
+  }
+
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: -20px !important;
+    margin-top: -130px; /* Consider reviewing this margin */
+    width: 250px;
+  }
+  
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8; /* No change on hover; consider adjusting */
+  }
+
+  .fourthdescriptionnn {
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+
+  .fourthheader-content {
+    margin-top: 60px !important;
+    margin-left: -80px; /* Combine the two definitions */
+  }
+}
+@media (min-width: 951px) and (max-width: 990px){
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-items: center;
+    margin-left: 15px !important;
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+   
+    width: 860px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 290px;
+    margin-top: 25px;
+    margin-right: -30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription,
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+  }
+
+  .fourthdescription {
+    color: #414146;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .section-divider {
+    width: 100px;
+   
+    border: none;
+    border-top: 2px solid #aca3a3;
+    margin-left: -100px !important;
+   
+    
+  }
+
+  .fourthtext-colr {
+    font-weight: 500;
+    color: #414146;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 31px;
+  }
+
+  .fourthpara-colr {
+    font-size: 14px;
+  }
+
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: -20px !important;
+    margin-top: -130px; /* Consider reviewing this margin */
+    width: 280px;
+  }
+  
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8; /* No change on hover; consider adjusting */
+  }
+
+  .fourthdescriptionnn {
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+
+  .fourthheader-content {
+    margin-top: 60px !important;
+    margin-left: -80px; /* Combine the two definitions */
+  }
+
+}
+@media (min-width: 991px) and (max-width: 1020px){
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-items: center;
+    margin-left: 15px !important;
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+   
+    width: 960px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 290px;
+    margin-top: 25px;
+    margin-right: -30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription,
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+  }
+
+  .fourthdescription {
+    color: #414146;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+
+  .fourthcardText {
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .section-divider {
+    width: 100px;
+   
+    border: none;
+    border-top: 2px solid #aca3a3;
+    margin-left: -100px !important;
+   
+    
+  }
+
+  .fourthtext-colr {
+    font-weight: 500;
+    color: #414146;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 31px;
+  }
+
+  .fourthpara-colr {
+    font-size: 14px;
+  }
+
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: -20px !important;
+    margin-top: -130px; /* Consider reviewing this margin */
+    width: 280px;
+  }
+  
+  .fourthbutton-section .btn {
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8; /* No change on hover; consider adjusting */
+  }
+
+  .fourthdescriptionnn {
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+
+  .fourthheader-content {
+    margin-top: 60px !important;
+    margin-left: -80px; /* Combine the two definitions */
+  }
+
+}
+@media (min-width: 1021px) and (max-width: 1100px){
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-left: -65px !important;
+
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 30px !important;
+    width:1070px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 280px;
+    margin-top: 25px;
+    margin-right: 10px; /* Adjust the margin-right value as needed */
+  }
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #414146;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: Lato,Helvetica,Arial,sans-serif!important;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+  
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: Lato,Helvetica,Arial,sans-serif!important;
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+    font-family:'Lato','Helvetica','Arial','sans-serif'!important;
+    
+  }
+  
+  .section-divider{
+    width: 100%;
+    
+    border: none;
+    border-top: 1px solid #aca3a3;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .fourthtext-colr {
+    font-weight: 500;
+    color:#414146;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 33px;
+  }
+  .fourthpara-colr{
+    font-size: 14px;
+  }
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: -130px;
+  }
+  
+  .fourthbutton-section .btn {
+    /* Add your button styles here */
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8;
+  }
+  .fourthdescriptionnn{
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+  .fourthheader-content{
+    margin-top: 50px !important;
+  }
+  .fourthheader-content{
+    margin-left: 30px;
+  }
+
+}
+@media (min-width: 1101px) and (max-width: 1190px){
+  .fourthCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-left: -65px !important;
+
+    padding-left: 100px;
+    margin-right: 10px !important;
+    margin-top: 30px !important;
+    width: 1140px;
+  }
+  
+  .fourthicon-section {
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin-top: 25px;
+    margin-right: 10px; /* Adjust the margin-right value as needed */
+  }
+  
+  .fourthrounded-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .fourthdescription {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #414146;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: Lato,Helvetica,Arial,sans-serif!important;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: -10px !important;
+  }
+  
+  .fourthcardText {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: Lato,Helvetica,Arial,sans-serif!important;
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #358588;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: left;
+    font-family:'Lato','Helvetica','Arial','sans-serif'!important;
+    
+  }
+  
+  .section-divider{
+    width: 100%;
+    
+    border: none;
+    border-top: 1px solid #aca3a3;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .fourthtext-colr {
+    font-weight: 500;
+    color:#414146;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 33px;
+  }
+  .fourthpara-colr{
+    font-size: 14px;
+  }
+  .fourthtext-section {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: -130px;
+  }
+  
+  .fourthbutton-section .btn {
+    /* Add your button styles here */
+    background-color: #27c4f8;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .fourthbutton-section .btn:hover {
+    background-color: #27c4f8;
+  }
+  .fourthdescriptionnn{
+    text-align: left;
+    font-size: 14px;
+    color: #414146;
+    margin-bottom: -10px;
+  }
+  .fourthheader-content{
+    margin-top: 50px !important;
+  }
+  .fourthheader-content{
+    margin-left: 30px;
+  }
+
+}

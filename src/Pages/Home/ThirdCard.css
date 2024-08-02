@@ -1173,6 +1173,100 @@
     margin-right: 0px !important;
     margin-top: 5px !important;
     position: relative;
+    width: 700px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 140px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 12px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px !important; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: transparent !important; /* Solid white background */
+    border: none;
+    border-radius: 100%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 801px) and (max-width: 830px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+    min-height: 250px; /* Ensure minimum height for smaller screens */
+  }
+  
+  .carousel-control-prev {
+    left: -50px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 9px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
     width: 730px;
   }
   
@@ -1242,12 +1336,1154 @@
     cursor: pointer; /* Adds a pointer cursor on hover */
   }
 }
+@media (min-width: 831px) and (max-width: 860px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -50px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 9px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 770px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 170px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px !important; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: transparent !important; /* Solid white background */
+    border: none;
+    border-radius: 100%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 861px) and (max-width: 890px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -50px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 9px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 790px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 180px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px !important; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: transparent !important; /* Solid white background */
+    border: none;
+    border-radius: 100%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 891px) and (max-width: 920px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -50px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 9px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 830px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 180px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px !important; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: transparent !important; /* Solid white background */
+    border: none;
+    border-radius: 100%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 921px) and (max-width: 960px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -50px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 9px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 870px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 180px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px !important; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: transparent !important; /* Solid white background */
+    border: none;
+    border-radius: 100%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 961px) and (max-width: 990px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -50px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -74px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 9px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 890px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 180px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px !important; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: transparent !important; /* Solid white background */
+    border: none;
+    border-radius: 100%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 991px) and (max-width: 1020px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -50px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 9px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 920px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 180px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #fff !important; /* Solid white background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 1021px) and (max-width: 1050px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -10px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -54px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 15px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: -30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 1030px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+    margin-left: 29px;
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 300px; /* Ensures image takes full width of its container */
+    height: 190px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #fff !important; /* Solid white background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
 
+@media (min-width: 1051px) and (max-width: 1090px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -70px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 15px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 1000px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+   
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 150px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 13px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #fff !important; /* Solid white background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+}
+@media (min-width: 1091px) and (max-width: 1120px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -70px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 15px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 1050px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+   
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 150px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 13px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #fff !important; /* Solid white background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+  .responsive-third{
+    width:1070px
+  }
+}
+@media (min-width: 1121px) and (max-width: 1170px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -70px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 15px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 1080px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+   
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 170px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 13px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #fff !important; /* Solid white background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+  .responsive-third{
+    width:1070px
+  }
+}
 
-
-
-
-
+@media (min-width: 1171px) and (max-width: 1200px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -70px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 15px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 1100px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+   
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 180px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 13px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #fff !important; /* Solid white background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+  .responsive-third{
+    width:1070px
+  }
+}
+@media (min-width: 1201px) and (max-width: 1250px){
+  .Thirdicon-section {
+    width: 100%;
+    margin-left: 10px;
+   
+  }
+  
+  .carousel-control-prev {
+    left: -70px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .carousel-control-next {
+    right: -64px !important; /* Adjust as needed to position inside the image */
+  }
+  
+  .ThirdCard-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    gap: 15px !important; /* Adjust the gap as needed */
+    align-items: center;
+    margin-left: 30px !important;
+    padding-left: 0;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: relative;
+    width: 1150px;
+  }
+  
+  .section-divider {
+    width: 100%;
+    margin: 20px 0; /* Ensure space around the divider */
+    border: none;
+    border-top: 1px solid #aca3a3;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Needed for positioning arrows relative to container */
+  }
+  
+  .Thirdicon-section {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1; /* Ensures each card takes equal space */
+    max-width: 280px; /* Limits maximum width of each card */
+    position: relative; /* Needed for positioning arrows relative to section */
+    min-height: 250px; /* Ensure a minimum height for consistency */
+   
+  }
+  
+  .Thirdrounded-image {
+    border-radius: 5px;
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 180px; /* Set a fixed height for image consistency */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .description {
+    margin-top: 5px;
+    margin-bottom: 40px !important; /* Adjust the margin-bottom as needed */
+    color: #666;
+    font-size: 13px;
+    text-align: left;
+    overflow: hidden; /* Ensures no overflow beyond the container */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if text overflows */
+    min-height: 40px; /* Ensure a minimum height for consistency */
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: medium;
+    font-weight: bold;
+    color: #414146;
+    text-align: left;
+  }
+  .carousel-arrow-icon-three {
+    font-size: 15px !important; /* Adjust as needed */
+    color: #050606; /* Set the color of the arrow */
+  }
+  .carousel-arrow-three {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: #fff !important; /* Solid white background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+  .responsive-third{
+    width:1070px
+  }
+}
 
 
 
