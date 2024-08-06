@@ -13,7 +13,7 @@ function SixthPart() {
             <h1 className='titleText'>Download the Practo app</h1>
             <p className='paragraphText'>
               Access video consultation with India’s top doctors on the Practo app.<br /> 
-              Connect with doctors online, available 24/7, from the comfort of your<br /> 
+              Connect with doctors online, available 24/7, from the comfort of your
               home.
             </p>
             <p className='second-paragraph'>Get the link to download the app</p>

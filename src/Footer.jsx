@@ -8,7 +8,7 @@ function Footer() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 800);
+      setIsSmallScreen(window.innerWidth <= 820);
     };
 
     window.addEventListener('resize', handleResize);
@@ -49,7 +49,7 @@ function Footer() {
             </div>
 
             {/* Second Column */}
-            <div className="col-6 col-md-2 mb-3">
+            <div className="col-6 col-md-2 mb-3 second-column">
               <h6 
                 onClick={isSmallScreen ? () => toggleSection('For patients') : undefined} 
                 className='d-flex justify-content-between align-items-center'

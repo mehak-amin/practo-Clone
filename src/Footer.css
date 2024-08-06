@@ -92,3 +92,779 @@
   margin-left: 110px !important;
 }
 }
+@media (min-width: 501px) and (max-width:530px) {
+  .footerSection .row {
+    flex-direction: column; /* Stack columns vertically */
+  }
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:left !important;
+}
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:500px !important;
+}
+.paracolour {
+
+  margin-left: 10px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+.plus{
+  margin-left: 110px !important;
+}
+}
+@media (min-width: 531px) and (max-width:565px) {
+  .footerSection .row {
+    flex-direction: column; /* Stack columns vertically */
+  }
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:left !important;
+}
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:540px !important;
+}
+.paracolour {
+
+  margin-left: 10px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+.plus{
+  margin-left: 110px !important;
+}
+}
+@media (min-width: 566px) and (max-width:580px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:560px !important;
+}
+.paracolour {
+
+  margin-left: 90px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 581px) and (max-width:590px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:565px !important;
+}
+.paracolour {
+
+  margin-left: 80px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 591px) and (max-width:610px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:585px !important;
+}
+.paracolour {
+
+  margin-left: 80px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 611px) and (max-width:630px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:615px !important;
+}
+.paracolour {
+
+  margin-left: 90px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 631px) and (max-width:660px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:635px !important;
+}
+.paracolour {
+
+  margin-left: 90px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 661px) and (max-width:690px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:665px !important;
+}
+.paracolour {
+
+  margin-left: 90px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 691px) and (max-width:710px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:695px !important;
+}
+.paracolour {
+
+  margin-left: 90px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 711px) and (max-width:730px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:715px !important;
+}
+.paracolour {
+
+  margin-left: 90px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 731px) and (max-width:760px) {
+ 
+
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:735px !important;
+}
+.paracolour {
+
+  margin-left: 110px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 761px) and (max-width:790px) {
+ 
+ 
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:775px !important;
+}
+.paracolour {
+
+  margin-left: 180px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+@media (min-width: 791px) and (max-width:820px) {
+ 
+ 
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 20px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+}
+.footerSection {
+
+  height: auto;
+  width:795px !important;
+}
+.paracolour {
+
+  margin-left: 180px;
+  
+}
+.py-5 {
+
+  height: auto !important;
+} 
+
+}
+
+@media (min-width: 821px) and (max-width:860px) {
+ 
+ 
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: -5px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: -5px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  margin-top: 90px;
+  
+}
+.footerSection {
+
+  height: 600px;
+  width:840px !important;
+}
+.paracolour {
+
+  margin-left: 180px;
+  
+  
+}
+.justify-content-center {
+  margin-top: -30px !important;
+}
+.row {
+  width: 920px;
+  margin-left: -60px;
+  gap: 0px;
+  
+}
+.second-column{
+  margin-left: -30px;
+}
+
+
+}
+@media (min-width: 861px) and (max-width:890px) {
+ 
+  .row {
+    width: 920px;
+    margin-left: -60px;
+    gap: 0px;
+    
+  }
+  .second-column{
+    margin-left: -30px;
+  }
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 10px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  
+}
+.footerSection {
+
+  height: 600px;
+  width:860px !important;
+}
+.paracolour {
+
+  margin-left: 180px;
+  
+  
+}
+.justify-content-center {
+  margin-top: -30px !important;
+}
+
+
+}
+@media (min-width: 891px) and (max-width:930px) {
+ 
+  .row {
+    width: 920px;
+    margin-left: -60px;
+    gap: 0px;
+    
+  }
+  .second-column{
+    margin-left: -30px;
+  }
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 10px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  
+}
+.footerSection {
+
+  height: 600px;
+  width:910x !important;
+}
+.paracolour {
+
+  margin-left: 180px;
+  
+  
+}
+.justify-content-center {
+  margin-top: -30px !important;
+}
+
+
+}
+@media (min-width: 931px) and (max-width:950px) {
+ 
+  .row {
+    width: 940px;
+    margin-left: -60px;
+    gap: 0px;
+    
+  }
+  .second-column{
+    margin-left: -20px;
+  }
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 10px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  
+}
+.footerSection {
+
+  height: 600px;
+  width:925px !important;
+}
+.paracolour {
+
+  margin-left: 180px;
+  
+  
+}
+.justify-content-center {
+  margin-top: -30px !important;
+}
+
+
+}
+@media (min-width: 951px) and (max-width:990px) {
+ 
+  .row {
+    width: 940px;
+    margin-left: -60px;
+    gap: 0px;
+    
+  }
+  .second-column{
+    margin-left: -20px;
+  }
+  .footerSection h6 {
+    margin-top: 10px; /* Add spacing between headers */
+    margin-left: 10px !important;
+  }
+
+  /* Align headers to the left for small screens */
+  .footerSection .nav {
+    text-align: left;
+    
+  }
+  .nav-item{
+    margin-left: 10px !important;
+  }
+  
+  .justify-content-center {
+    justify-content:center !important;
+  }
+.img-fluid {
+  max-width: 150px;
+  
+}
+.footerSection {
+
+  height: 600px;
+  width:965px !important;
+}
+.paracolour {
+
+  margin-left: 180px;
+  
+  
+}
+.justify-content-center {
+  margin-top: -30px !important;
+}
+
+
+}
