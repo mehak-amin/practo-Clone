@@ -181,3 +181,66 @@
     color: #2d2d32;
   }
   
+  /*-------------------------------- RESPONSIVE--------------------------------------------------- */
+ @media (max-width:500px){
+.newfifth-part{
+  width:470px;
+  height:300px
+}
+  .car-title{
+    margin-left: -10px;
+
+  }
+  .paragraph {
+  font-size: 15px;
+  }
+  .paragraph br {
+    display: none;
+  }
+  .first-colon {
+   
+    margin-left: 10px !important;
+  
+    top: -90px; /* Increased the negative value */
+   
+  }
+  .second-colon {
+    margin-left: 10px !important;
+    top: -90px; /* Increased the negative value */
+   
+  }
+  #carouselExampleCaptions{
+    width:500px !important;
+  }
+  .my-users {
+    margin-left: 230px;
+    margin-bottom: 3px;
+    font-weight: 700;
+  }
+  .date {
+   
+    margin-top: -2px;
+    margin-left: 230px;
+  }
+  .third-colon {
+    margin-left: 10px !important;
+    top: -90px; /* Increased the negative value */
+   
+  }
+  .fourth-colon {
+    margin-left: 10px !important;
+    top: -90px; /* Increased the negative value */
+   
+  }
+  .fifth-colon {
+    margin-left: 10px !important;
+    top: -90px; /* Increased the negative value */
+   
+  }
+  .carousel-inner {
+    width: 490px !important;
+}
+
+ }
+ 
+  

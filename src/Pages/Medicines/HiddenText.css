@@ -41,3 +41,33 @@
 }
 .u-cur--ptr {
     cursor:pointer}
+/*------------------------------------------ RESPONSIVE----------------------------------------------------- */
+
+@media (max-width:500px){
+    .u-content-wrapper {
+        margin-left: 20px !important; /* Adjusted for smaller screens */
+        margin-right: 20px !important; /* Adjusted for smaller screens */
+        max-width: 430px; /* Ensures it doesn't exceed the screen width */
+    }
+
+    .text-epsilon {
+        font-size: 12px; /* Smaller font size for mobile */
+    }
+
+    .u-text--justify {
+        font-size: 12px; /* Smaller font size for mobile */
+    }
+
+    .see-less-seo__cta {
+        margin-top: -10px; /* Adjusted position for mobile */
+    }
+    .u-content-wrapper.collapsed {
+        max-height: 350px; /* Adjust this value as needed */
+      }
+      .u-content-wrapper.expanded {
+        max-height: 2000px; /* Adjust this value as needed to accommodate the expanded content */
+      } 
+      .hidden-container-new{
+        width:450px;
+      }
+}

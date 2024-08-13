@@ -65,3 +65,65 @@ object-fit: contain;
 
 }
 
+/* -----------------------------RESPONSIVE ----------------------------- */
+@media (max-width:500px){
+  .Introducing-container {
+    display: flex; /* Use flex instead of row */
+    flex-direction: column; /* Set to row for horizontal alignment */
+    justify-content: space-between;
+    padding: 20px;
+    gap: 1px !important;
+    margin-top: -70px !important;
+    margin-bottom: -40px !important;
+    height: auto; /* Adjust height to auto for better responsiveness */
+    width: 480px;
+}
+
+.oneImage {
+    width: 400px; /* Ensure images fit within the container */
+    height: auto; /* Adjust height to auto */
+    margin-top: 20px;
+}
+.second-oneImage{
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.left-text-new{
+  margin-left: 25px;
+  
+}
+.second-left-text-new{
+  margin-left: 25px;
+  font-size: 18px;
+  
+ 
+}
+.second-left-text{
+  font-size: 18px;
+}
+
+/*------------------------------- ANOTHER IMAGE----------------------- */
+.AnotherImage-Container{
+  width: 478px; 
+  margin-bottom: 10px !important;
+  background-color: #e7f1f7 ;
+  margin-top: 60px !important;
+  height:215px
+
+}
+.Another-image{
+  width: 530px; /* Adjust width as needed */
+height: 290px !important; /* Adjust height as needed */
+margin-left: -10px !important;
+
+
+object-fit: contain;
+
+}
+.introducing-container-new{
+  width:470px;
+}
+
+
+}
+

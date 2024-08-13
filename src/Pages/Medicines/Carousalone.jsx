@@ -14,7 +14,7 @@ export default function Carouselone() {
   const bgColors = ['#e7f1f7', '#d7f9f8', '#e5d4ef', '#fbe0e0'];
 
   return (
-    <Carousel>
+    <Carousel className='new-column-new'>
       {images.map((image, index) => (
         <Carousel.Item key={index}>
           <div className="image-container" style={{ backgroundColor: bgColors[index % bgColors.length] }}>
@@ -25,7 +25,10 @@ export default function Carouselone() {
             />
           </div>
         </Carousel.Item>
+      
       ))}
+       
+        
     </Carousel>
   );
 }

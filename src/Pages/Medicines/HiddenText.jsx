@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './HiddenText.css';
 
 export default function HiddenText() {
@@ -9,7 +9,7 @@ export default function HiddenText() {
   };
 
   return (
-    <div>
+    <div className='hidden-container-new'>
       <div className={`u-content-wrapper u-pos--rel u-m-b--30 ${isExpanded ? 'expanded' : 'collapsed'}`}>
         <div className="u-p-h--15 u-p-v--25 null">
           <div className="u-m-b--20">

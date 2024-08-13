@@ -38,11 +38,11 @@ body, html {
   margin-top: 3px !important;
 }
 
-.nav-logo {
+.navbar-new-logo {
   margin-right: 40px;
 }
 
-.nav-logo img {
+.navbar-new-logo img {
   height: 25px;
 }
 
@@ -150,79 +150,7 @@ body, html {
 
 
 
-/* Card.jsx  */
 
-/* Overall container styles */
-.content-container {
-  margin-top: 80px;
-}
-
-/* Card container styles */
-.card-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 80px;
-  margin-left: 120px !important;
-  margin-bottom: 80px !important;
-}
-
-/* Individual card styles */
-.custom-card {
-  border: 1px solid white !important; /* Ensure the border is white */
-  border-radius: 25px !important;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .12);
-  width: 200px; /* Fixed width for all cards */
-  height: 290px !important ; /* Fixed height for all cards */
-}
-
-.custom-card .img-wrapper {
-  background: #AFCFED; /* Default background color for the first card */
-  padding: 12px 35px 0 35px; /* Padding as per the first card */
-}
-
-.custom-card:nth-child(2) .img-wrapper {
-  background: #98CBD6; /* Background color for the second card */
-  padding: 4px 20px 0 20px; /* Padding as per the second card */
-}
-
-.custom-card:nth-child(3) .img-wrapper {
-  background: #D5D8FC; /* Background color for the third card */
-  padding: 16px 14px 0 20px; /* Padding as per the third card */
-}
-
-/* Image styles */
-.custom-card img {
-  width: auto;
-  height: 160px; /* Set a fixed height */
-  object-fit: cover; /* Ensures the image covers the area without distortion */
-}
-
-/* Card body styles */
-.custom-card .card-body {
-  padding: 15px;
-}
-
-/* Card text styles */
-.custom-card .card-text {
-  margin: 0;
-  color: #6b6868;
-  font-size: 14px;
-  font-weight: 400 !important;
-}
-
-/* Bold body text styles */
-.body-text {
-  font-size: 17px;
-  font-weight: bold;
-}
-
-/* Universal box-sizing */
-* {
-  box-sizing: border-box;
-}
 /* Dropdown styles */
 
 /* Ensure dropdown remains visible when the dropdown toggle is clicked */
@@ -262,5 +190,96 @@ body, html {
   border-radius: 12px; /* Rounded corners */
   padding: 2px 6px; /* Padding for the badge */
   margin-right: 3px; /* Space between badge and text */
+
+}
+
+
+
+/* Responsivne */
+@media (max-width:500px){
+  .navbar-new-logo{
+    margin-left: -200px ;
+  }
+  .nav-container-med {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150%;
+    margin-top: 3px !important;
+    margin-left: -50px !important;
+}
+}
+@media (min-width: 501px) and (max-width: 600px){
+  .navbar-new-logo{
+    margin-right: 1000px;
+  }
+
+}
+@media (min-width: 601px) and (max-width: 620px){
+  .navbar-new-logo{
+    margin-right: 1000px;
+  }
+
+}
+@media (min-width: 621px) and (max-width: 630px){
+  .navbar-new-logo{
+    margin-right: 1000px;
+  }
+}
+@media (min-width: 631px) and (max-width: 690px){
+  .navbar-new-logo{
+    margin-right: 300px;
+  }
+
+}
+@media (min-width: 691px) and (max-width: 730px){
+  .navbar-new-logo{
+    margin-right: 300px;
+  }
+}
+@media (min-width: 731px) and (max-width: 770px){
+  .navbar-new-logo{
+    margin-right: 300px;
+  }
+}
+@media (min-width: 771px) and (max-width: 790px){
+  .navbar-new-logo{
+    margin-right: 350px;
+  }
+  .nav-container-med {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290%;
+    margin-top: 3px !important;
+    margin-left: -50px !important;
+}
+}
+@media (min-width: 791px) and (max-width: 830px){
+  .navbar-new-logo{
+    margin-right: 420px;
+  }
+  .nav-container-med {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:600px !important;
+    margin-top: 3px !important;
+    margin-left: -50px !important;
+}
+
+}
+@media (min-width: 831px) and (max-width: 980px){
+  .navbar-new-logo{
+    margin-right: 420px;
+  }
+  .nav-container-med {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:600px !important;
+    margin-top: 3px !important;
+    margin-left: -50px !important;
+}
 
 }

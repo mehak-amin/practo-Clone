@@ -99,6 +99,1766 @@
   margin-bottom: 5px !important;
 }
 
-.Browse-heading {
+.Browse-heading ,.Browse-heading-two{
   margin-left: 54px !important;
+}
+
+
+.carousel-container-Med {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.ThirdCard-container-Med-two{
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+  gap: 10px; /* Adjust the gap as needed */
+  align-items: center;
+  margin-left: -10px !important;
+  padding-left: 0;
+  margin-right: 0px !important;
+  margin-top: 5px !important;
+  position: relative;
+
+}
+/* ---------------------RESPONSIVE -----------------------------------*/
+@media (max-width:500px){
+  .browse-text {
+    
+    font-size: 22px;
+    
+    
+    
+  }
+  .Thirdicon-section-Med {
+    max-width: 60%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 150px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+  .carousel-control-next-med {
+    right:-5px !important; /* Adjust as needed to position inside the image */
+    margin-top: 10px;
+  }
+ .third-responsive-new{
+    display: flex;
+   
+    width: 470px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: -455px !important;
+    margin-bottom: 15px;
+  }
+  .third-responsive-second-new{
+    display: flex;
+   
+    width: 470px;
+   
+  margin-top: 50px;
+    margin-left: -124px !important;
+
+  }
+ 
+.Browse-heading{
+  margin-top: -200px;
+}
+.Browse-heading-two{
+  margin-top: -180px;
+  
+}
+
+}
+@media (min-width:501px) and (max-width:520px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 60%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 150px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+  .carousel-control-next-med {
+    right:785px !important; /* Adjust as needed to position inside the image */
+    margin-top: 10px;
+  }
+ .third-responsive-new{
+    display: flex;
+   
+    width: 470px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: -455px !important;
+    margin-bottom: 15px;
+  }
+  .third-responsive-second-new{
+    display: flex;
+   
+    width: 470px;
+   
+  margin-top: 50px;
+    margin-left: -124px !important;
+
+  }
+ 
+.Browse-heading{
+  margin-top: -200px;
+}
+.Browse-heading-two{
+  margin-top: -180px;
+  
+}
+
+}
+@media (min-width:521px) and (max-width:540px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 60%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 150px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+  .carousel-control-next-med {
+    right:1cqb !important; /* Adjust as needed to position inside the image */
+    margin-top: 10px;
+  }
+  .third-responsive-new {
+    display: flex;
+    width: 480px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: -440px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 480px;
+  position: relative;
+  margin-top: 60px;
+  margin-left: -110px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -200px;
+}
+.Browse-heading-two{
+  margin-top: -180px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 530px;
+}
+.ThirdCard-container-Med-two{
+  width: 530px;
+}
+
+}
+@media (min-width:541px) and (max-width:560px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 60%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 150px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 510px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 510px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 530px;
+}
+.ThirdCard-container-Med-two{
+  width: 530px;
+}
+
+}
+@media (min-width:561px) and (max-width:580px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 70%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 150px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 510px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 510px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 550px;
+}
+.ThirdCard-container-Med-two{
+  width: 550px;
+}
+
+}
+@media (min-width:581px) and (max-width:600px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 70%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 150px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 530px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 530px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 570px;
+}
+.ThirdCard-container-Med-two{
+  width: 570px;
+}
+
+}
+@media (min-width:601px) and (max-width:620px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 70%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 160px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 550px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 550px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 590px;
+}
+.ThirdCard-container-Med-two{
+  width: 590px;
+}
+
+}
+@media (min-width:621px) and (max-width:640px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 70%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 170px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 580px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 580px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 610px;
+}
+.ThirdCard-container-Med-two{
+  width: 610px;
+}
+
+}
+@media (min-width:641px) and (max-width:660px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 70%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 600px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 600px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 630px;
+}
+.ThirdCard-container-Med-two{
+  width: 630px;
+}
+
+}
+@media (min-width:661px) and (max-width:680px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 70%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 620px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 620px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 650px;
+}
+.ThirdCard-container-Med-two{
+  width: 650px;
+}
+
+}
+@media (min-width:681px) and (max-width:700px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 70%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 630px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 630px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 660px;
+}
+.ThirdCard-container-Med-two{
+  width: 660px;
+}
+
+}
+@media (min-width:701px) and (max-width:720px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 160px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 680px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 680px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 700px;
+}
+.ThirdCard-container-Med-two{
+  width: 700px;
+}
+
+}
+@media (min-width:721px) and (max-width:740px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 160px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 690px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 690px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 720px;
+}
+.ThirdCard-container-Med-two{
+  width: 720px;
+}
+
+}
+@media (min-width:741px) and (max-width:760px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 160px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 700px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 700px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 740px;
+}
+.ThirdCard-container-Med-two{
+  width: 740px;
+}
+
+}
+@media (min-width:761px) and (max-width:780px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 170px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 720px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 720px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 755px;
+}
+.ThirdCard-container-Med-two{
+  width: 755px;
+}
+
+}
+@media (min-width:781px) and (max-width:800px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 170px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 730px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 730px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 765px;
+}
+.ThirdCard-container-Med-two{
+  width: 765px;
+}
+
+}
+@media (min-width:801px) and (max-width:820px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 170px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 750px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 750px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 790px;
+}
+.ThirdCard-container-Med-two{
+  width: 790px;
+}
+
+}
+@media (min-width:821px) and (max-width:840px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 170px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 770px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 770px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 800px;
+}
+.ThirdCard-container-Med-two{
+  width: 800px;
+}
+
+}
+@media (min-width:841px) and (max-width:860px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 170px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 780px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 780px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 820px;
+}
+.ThirdCard-container-Med-two{
+  width: 820px;
+}
+
+}
+@media (min-width:861px) and (max-width:880px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 170px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 800px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 800px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 840px;
+}
+.ThirdCard-container-Med-two{
+  width: 840px;
+}
+
+}
+@media (min-width:881px) and (max-width:900px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 830px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 830px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 860px;
+}
+.ThirdCard-container-Med-two{
+  width: 860px;
+}
+
+}
+@media (min-width:901px) and (max-width:920px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 850px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 850px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 880px;
+}
+.ThirdCard-container-Med-two{
+  width: 880px;
+}
+
+}
+@media (min-width:921px) and (max-width:940px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 870px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 870px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 900px;
+}
+.ThirdCard-container-Med-two{
+  width: 900px;
+}
+
+}
+@media (min-width:941px) and (max-width:960px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 890px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 890px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 920px;
+}
+.ThirdCard-container-Med-two{
+  width: 920px;
+}
+
+}
+@media (min-width:961px) and (max-width:990px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 910px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 910px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 940px;
+}
+.ThirdCard-container-Med-two{
+  width: 940px;
+}
+
+}
+@media (min-width:991px) and (max-width:1010px){
+ 
+  .Thirdicon-section-Med {
+    max-width: 90%;
+    flex: 1 1 45%;
+    margin-left: 20px;
+}
+
+  .Thirdrounded-image-Med {
+    height: 190px; /* Adjust image height for better fitting */
+    border-radius: 5px;
+ 
+  }
+
+  .browse-text {
+    font-size: 22px;
+  }
+
+  .carousel-control-prev-med {
+    left: 25px !important; /* Adjust as needed to position inside the image */
+    margin-top: 15px;
+  }
+     .carousel-control-next-med {
+        right: -10px !important;
+        margin-top: 10px;
+    }
+    .carousel-control-next-med-second{
+      margin-top: -10px;
+    }
+    .carousel-control-prev-second{
+      margin-top: -1px;
+
+    }
+  .third-responsive-new {
+    display: flex;
+    width: 930px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
+}
+.third-responsive-second-new{
+  display: flex;
+  width: 930px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px !important;
+  margin-bottom: 15px;
+
+}
+
+ 
+.Browse-heading{
+  margin-top: -10px;
+}
+.Browse-heading-two{
+  margin-top: -10px;
+  
+}
+.ThirdCard-container-Med {
+ 
+  width: 960px;
+}
+.ThirdCard-container-Med-two{
+  width: 960px;
+}
+
 }

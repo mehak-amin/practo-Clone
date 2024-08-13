@@ -169,3 +169,91 @@
   height: 40px;
   margin-top: 30px;
  }
+
+ /* -----------------------------------RESPONSIVE----------------------------- */
+ @media (max-width:500px){
+
+  .medicinecontainer {
+  
+    background-color: #f8f8fb !important;
+    margin-top: -20px;
+    text-align: left; /* Changed to left align text */
+    height: 500px !important;
+    padding: 20px; /* Added padding for better spacing */
+    width:477px;
+    
+  }
+  .align-items-start {
+  
+    width: 470px;
+  }
+  .medicineText {
+    margin-left: 150px !important;
+    width:400px;
+  }
+  .medicine-custom-img {
+    width: 165px !important;
+    height: 260px !important;
+    margin-left: -100px;
+    border: none !important; /* Removes the border */
+    border-radius: 10px;
+    margin-top: 140px;
+    
+  }
+  .med-titleText {
+   
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+  }
+  .medicine-paragraph{
+   
+    font-size: 14px;
+ 
+  }
+  .secondParagraph-text{
+    font-size: 14px;
+    
+  }
+  .medicine-phone-input-container {
+   
+    width: 200px !important;
+    height: 40px;
+  }
+  .medicine-phone-input {
+   
+    font-size: 13px;
+    /* flex-grow: 1; */
+   
+  }
+  .vertical-line {
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+  }
+  .play-store{
+    height: 33px;
+    margin-top: 30px;
+    margin-right: 15px;
+  
+   }
+   .app-store{
+    height: 33px;
+    margin-top: 30px;
+   }
+   .medicine-phoneButton {
+ 
+    width: 85px !important; /* Adjust width as needed */
+    height: 35px;
+  
+   
+    /* margin-left: px;  */
+    font-size: 12px;
+ 
+  
+    margin-left: -10px !important;
+  }
+ 
+ }

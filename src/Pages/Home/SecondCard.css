@@ -170,8 +170,8 @@ body {
     display: flex; /* Show arrows on small screens */
   }
   .carousel-arrow-next{
-    margin-left: -10px !important;
-    margin-top: 40px;
+    margin-left: -40px !important;
+    margin-top: 60px;
   }
   .carousel-arrow-prev{
     margin-left: 30px !important;

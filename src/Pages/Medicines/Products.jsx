@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Products.css';
 
 function Products() {
   const ProductData = [
+    // ... (your existing product data)
     { text: (<><span>NAN PRO 2  REFILL </span> <br></br><span> 400gm   </span></>), imgSrc: '/logo/nan-pro-2-.jpeg', paragraph: '₹825.00' },
     { text: 'PEDIASURE VANILLA JAR 400GM', imgSrc: '/logo/pediasure-vanilla-jar-.jpeg', paragraph: '₹840.00' },
     { text: 'ZINCOVIT TABLET  Covid_essentials 15`S', imgSrc: '/logo/zincovit-tablet-15-s.jpeg', paragraph: '₹109.95' },
@@ -34,9 +35,29 @@ function Products() {
 
   const [currentStartIndexProduct, setCurrentStartIndexProduct] = useState(0);
   const [clickedIndex, setClickedIndex] = useState(null);
+  const [visibleCount, setVisibleCount] = useState(5);
+
+  const updateVisibleCount = () => {
+    if (window.innerWidth <= 500) {
+      setVisibleCount(2);
+      setCurrentStartIndexProduct(0);
+    } else {
+      setVisibleCount(5);
+      setCurrentStartIndexProduct(0);
+    }
+  };
+
+  useEffect(() => {
+    updateVisibleCount(); // Set initial visible count based on window size
+    window.addEventListener('resize', updateVisibleCount); // Update on resize
+
+    return () => {
+      window.removeEventListener('resize', updateVisibleCount); // Clean up the event listener
+    };
+  }, []);
 
   const nextSlide = () => {
-    if (currentStartIndexProduct + 5 < ProductData.length) {
+    if (currentStartIndexProduct + visibleCount < ProductData.length) {
       setCurrentStartIndexProduct(currentStartIndexProduct + 1);
     }
   };
@@ -53,7 +74,7 @@ function Products() {
 
   const getVisibleCards = () => {
     const visibleCards = [];
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < visibleCount; i++) {
       if (ProductData[currentStartIndexProduct + i]) {
         visibleCards.push(ProductData[currentStartIndexProduct + i]);
       }
@@ -89,7 +110,7 @@ function Products() {
           </button>
         </div>
       )}
-      {currentStartIndexProduct + 5 < ProductData.length && (
+      {currentStartIndexProduct + visibleCount < ProductData.length &&  (
         <div className="carousel-control-next-Product carousel-arrow-container-Product">
           <button className="carousel-arrow-Product" type="button" onClick={nextSlide}>
             <span className="carousel-arrow-icon-Product">&#9654;</span>
