@@ -4,7 +4,7 @@ import './Products.css';
 function Products() {
   const ProductData = [
     // ... (your existing product data)
-    { text: (<><span>NAN PRO 2  REFILL </span> <br></br><span> 400gm   </span></>), imgSrc: '/logo/nan-pro-2-.jpeg', paragraph: '₹825.00' },
+    { text: 'NAN PRO 2  REFILL  400gm'  , imgSrc: '/logo/nan-pro-2-.jpeg', paragraph: '₹825.00' },
     { text: 'PEDIASURE VANILLA JAR 400GM', imgSrc: '/logo/pediasure-vanilla-jar-.jpeg', paragraph: '₹840.00' },
     { text: 'ZINCOVIT TABLET  Covid_essentials 15`S', imgSrc: '/logo/zincovit-tablet-15-s.jpeg', paragraph: '₹109.95' },
     { text: 'NAN PRO 4 FOLLOW UP FORMULA REFILL 400GM', imgSrc: '/logo/nan-pro-4-follow-up.jpeg', paragraph: '₹825.00' },
@@ -38,10 +38,18 @@ function Products() {
   const [visibleCount, setVisibleCount] = useState(5);
 
   const updateVisibleCount = () => {
-    if (window.innerWidth <= 500) {
+    if (window.innerWidth <= 700) {
       setVisibleCount(2);
       setCurrentStartIndexProduct(0);
-    } else {
+    } else if (window.innerWidth > 700 && window.innerWidth<= 930) {
+      setVisibleCount(3);
+      setCurrentStartIndexProduct(0);
+    }
+    else if (window.innerWidth > 930 && window.innerWidth<= 1100) {
+      setVisibleCount(4);
+      setCurrentStartIndexProduct(0);
+    }
+    else {
       setVisibleCount(5);
       setCurrentStartIndexProduct(0);
     }

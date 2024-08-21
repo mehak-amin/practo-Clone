@@ -1074,7 +1074,7 @@
 }
 @media (min-width: 821px) and (max-width: 840px){
   .image {
-    width: 760px !important; /* Adjust width as needed */
+    width: 740px !important; /* Adjust width as needed */
     height: 240px !important; /* Adjust height as needed */
     margin-left: 80px !important;
     margin-top: 20px !important;
@@ -1432,3 +1432,652 @@
     left: -40px !important;
 }
 }
+@media (min-width: 981px) and (max-width:1000px){
+  .image {
+    width: 920px !important; /* Adjust width as needed */
+    height: 250px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1010px; 
+    margin-bottom: 60px !important;
+    height: 270px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1020px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 999px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:260px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1001px) and (max-width:1020px){
+  .image {
+    width: 920px !important; /* Adjust width as needed */
+    height: 260px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1040px; 
+    margin-bottom: 60px !important;
+    height: 270px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1040px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1010px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:270px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1021px) and (max-width:1040px){
+  .image {
+    width: 920px !important; /* Adjust width as needed */
+    height: 260px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1040px; 
+    margin-bottom: 60px !important;
+    height: 270px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1050px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1030px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:270px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1041px) and (max-width:1060px){
+  .image {
+    width: 920px !important; /* Adjust width as needed */
+    height: 260px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1060px; 
+    margin-bottom: 60px !important;
+    height: 270px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1070px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1050px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:270px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1061px) and (max-width:1090px){
+  .image {
+    width: 920px !important; /* Adjust width as needed */
+    height: 260px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1090px; 
+    margin-bottom: 60px !important;
+    height: 270px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1090px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1070px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:270px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1091px) and (max-width:1110px){
+  .image {
+    width: 920px !important; /* Adjust width as needed */
+    height: 260px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1110px; 
+    margin-bottom: 60px !important;
+    height: 270px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1110px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1090px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:270px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1091px) and (max-width:1110px){
+  .image {
+    width: 920px !important; /* Adjust width as needed */
+    height: 260px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1110px; 
+    margin-bottom: 60px !important;
+    height: 270px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1110px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1090px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:270px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1111px) and (max-width:1130px){
+  .image {
+    width: 1030px !important; /* Adjust width as needed */
+    height: 280px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1135px; 
+    margin-bottom: 60px !important;
+    height: 280px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1135px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1130px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:280px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1131px) and (max-width:1160px){
+  .image {
+    width: 1030px !important; /* Adjust width as needed */
+    height: 280px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1165px; 
+    margin-bottom: 60px !important;
+    height: 280px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1155px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1150px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:280px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1161px) and (max-width:1180px){
+  .image {
+    width: 1080px !important; /* Adjust width as needed */
+    height: 300px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1180px; 
+    margin-bottom: 60px !important;
+    height: 287px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1180px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1170px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:287px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1181px) and (max-width:1200px){
+  .image {
+    width: 1080px !important; /* Adjust width as needed */
+    height: 300px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1200px; 
+    margin-bottom: 60px !important;
+    height: 287px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1200px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1195px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:287px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1201px) and (max-width:1220px){
+  .image {
+    width: 1080px !important; /* Adjust width as needed */
+    height: 300px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1220px; 
+    margin-bottom: 60px !important;
+    height: 287px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1220px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1200px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:287px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1221px) and (max-width:1240px){
+  .image {
+    width: 1080px !important; /* Adjust width as needed */
+    height: 300px !important; /* Adjust height as needed */
+    margin-left: 80px !important;
+    margin-top: 20px !important;
+    object-fit: fill; /* Ensure the entire image fits within the container */
+  }
+  
+  .image-container {
+    width:1245px; 
+    margin-bottom: 60px !important;
+    height: 287px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1245px !important;
+    margin-left: -20px !important;
+  }
+
+  .new-column-new {
+    width: 1230px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -10px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -4px !important;
+ 
+   
+  }
+  .carousel-item{
+    height:287px;
+   
+  }
+  .carousel-control-prev {
+    left: -40px !important;
+}
+}
+@media (min-width: 1241px) and (max-width:1250px){
+  .image-container {
+    width:1255px; 
+    margin-bottom: 60px !important;
+    height: 287px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1255px !important;
+    margin-left: -20px !important;
+  }
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    margin-top: -30px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -30px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -1px !important;
+ 
+   
+  }
+}
+@media (min-width: 1251px) and (max-width:1270px){
+  .image-container {
+    width:1275px; 
+    margin-bottom: 60px !important;
+    height: 287px; /* Ensure height matches the carousel */
+  }
+  
+  .carousel-inner {
+    width: 1275px !important;
+    margin-left: -20px !important;
+  }
+  .carousel-control-prev-icon {
+    margin-left:10px !important;
+    margin-top: -30px !important;
+    
+  }
+
+  .carousel-control-next {
+    margin-top: -30px !important; /* Adjust to position the next arrow */
+    padding: 14px !important;
+    margin-right: -1px !important;
+ 
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

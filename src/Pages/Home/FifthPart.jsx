@@ -18,7 +18,7 @@ function FifthPart() {
             {carouselItems.map((item, index) => (
                 <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
                     <div className="d-block w-100 carousel-itemm-first-one">
-                        <div className="carousel-caption d-md-block">
+                        <div className="carousel-caption d-md-block carousel-new-resp">
                             <p className="para" dangerouslySetInnerHTML={{ __html: item.content }}></p>
                             <div className="u-d__inline-block u-t-left u-v-middle u-margin--10__left">
                                 <img src='\logo\p8dow26e.png' alt="User Icon" className="user-icon" />

@@ -192,7 +192,7 @@
 
   }
   .paragraph {
-  font-size: 15px;
+  font-size: 12px;
   }
   .paragraph br {
     display: none;
@@ -238,9 +238,1218 @@
    
   }
   .carousel-inner {
-    width: 490px !important;
+    width: 470px !important;
+}
+ 
+.users-previous{
+  margin-top: 60px !important;
+}
+.users-next{
+  margin-top: 60px !important;
 }
 
  }
- 
+ @media (min-width:501px) and (max-width:530px){
+  .newfifth-part{
+    width:500px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
   
+    }
+    .paragraph {
+    font-size: 14px;
+    margin-left: 5px;
+    width:480px
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    #carouselExampleCaptions{
+      width:500px !important;
+    }
+    .my-users {
+      margin-left: 240px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 240px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .carousel-inner {
+      width: 500px !important;
+  }
+   
+  .users-previous{
+    margin-top: 65px !important;
+  }
+  .users-next{
+    margin-top: 65px !important;
+  
+  }
+ 
+
+ }
+ @media (min-width:531px) and (max-width:550px){
+  .newfifth-part{
+    width:500px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 10px;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    #carouselExampleCaptions{
+      width:530px !important;
+    }
+    .my-users {
+      margin-left: 250px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 250px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .carousel-inner {
+      width: 520px !important;
+  }
+   
+  .users-previous{
+    margin-top: 65px !important;
+  }
+  .users-next{
+    margin-top: 65px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+
+ }
+ @media (min-width:531px) and (max-width:550px){
+  .newfifth-part{
+    width:500px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 10px;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    #carouselExampleCaptions{
+      width:530px !important;
+    }
+    .my-users {
+      margin-left: 250px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 250px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .carousel-inner {
+      width: 520px !important;
+  }
+   
+  .users-previous{
+    margin-top: 65px !important;
+  }
+  .users-next{
+    margin-top: 65px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+
+ }
+ @media (min-width:551px) and (max-width:570px){
+  .newfifth-part{
+    width:530px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 530px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    #carouselExampleCaptions{
+      width:530px !important;
+    }
+    .my-users {
+      margin-left: 250px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 250px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px; /* Increased the negative value */
+     
+    }
+    .carousel-inner {
+      width: 530px !important;
+  }
+   
+  .users-previous{
+    margin-top: 65px !important;
+  }
+  .users-next{
+    margin-top: 65px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: -10px !important;
+
+  }
+ 
+
+ }
+ @media (min-width:571px) and (max-width:590px){
+  .newfifth-part{
+    width:550px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 15px;
+    width: 540px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:560px !important;
+    }
+    .my-users {
+      margin-left: 260px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 260px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 550px !important;
+  }
+   
+  .users-previous{
+    margin-top: 65px !important;
+  }
+  .users-next{
+    margin-top: 65px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: -10px !important;
+
+  }
+ 
+
+ }
+ @media (min-width:591px) and (max-width:605.5px){
+  .newfifth-part{
+    width:550px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 540px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:560px !important;
+    }
+    .my-users {
+      margin-left: 270px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 270px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 560px !important;
+  }
+   
+  .users-previous{
+    margin-top: 65px !important;
+  }
+  .users-next{
+    margin-top: 65px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+
+ }
+ @media (min-width:605.5px) and (max-width:615.5px){
+  .newfifth-part{
+    width:550px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 550px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:570px !important;
+    }
+    .my-users {
+      margin-left: 270px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 270px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 570px !important;
+  }
+   
+  .users-previous{
+    margin-top: 65px !important;
+  }
+  .users-next{
+    margin-top: 65px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+
+ }
+ @media (min-width:615.5px) and (max-width:625.5px){
+  .newfifth-part{
+    width:550px;
+    height:320px
+  }
+    .car-title{
+      margin-left: -10px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 570px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:580px !important;
+    }
+    .my-users {
+      margin-left: 270px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 270px;
+    }
+    .third-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 580px !important;
+  }
+   
+  .users-previous{
+    margin-top: 25px !important;
+  }
+  .users-next{
+    margin-top: 25px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+
+ }
+ @media (min-width:625.5px) and (max-width:635.5px){
+  .newfifth-part{
+    width:550px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 590px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:610px !important;
+    }
+    .my-users {
+      margin-left: 290px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 290px;
+    }
+    .third-colon {
+      margin-left: 40px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 70px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 615px !important;
+  }
+   
+  .users-previous{
+    margin-top: 25px !important;
+  }
+  .users-next{
+    margin-top: 25px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+}
+@media (min-width:635.5px) and (max-width:645.5px){
+  .newfifth-part{
+    width:550px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 590px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:610px !important;
+    }
+    .my-users {
+      margin-left: 290px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 290px;
+    }
+    .third-colon {
+      margin-left: 40px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 70px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 615px !important;
+  }
+   
+  .users-previous{
+    margin-top: 25px !important;
+  }
+  .users-next{
+    margin-top: 25px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+}
+@media (min-width:645.5px) and (max-width:655.5px){
+  .newfifth-part{
+    width:550px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 610px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:630px !important;
+    }
+    .my-users {
+      margin-left: 305px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 305px;
+    }
+    .third-colon {
+      margin-left: 40px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 70px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 635px !important;
+  }
+   
+  .users-previous{
+    margin-top: -15px !important;
+  }
+  .users-next{
+    margin-top: -15px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 20px !important;
+
+  }
+ 
+}
+@media (min-width:655.5px) and (max-width:665.5px){
+  .newfifth-part{
+    width:570px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 610px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:645px !important;
+    }
+    .my-users {
+      margin-left: 305px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 305px;
+    }
+    .third-colon {
+      margin-left: 40px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 70px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 645px !important;
+  }
+   
+  .users-previous{
+    margin-top: -15px !important;
+  }
+  .users-next{
+    margin-top: -15px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 17!important;
+
+  }
+ 
+}
+@media (min-width:665.5px) and (max-width:670.5px){
+  .newfifth-part{
+    width:570px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 20px;
+    width: 610px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 10px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 10px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:655px !important;
+    }
+    .my-users {
+      margin-left: 315px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 315px;
+    }
+    .third-colon {
+      margin-left: 40px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 10px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 70px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 655px !important;
+  }
+   
+  .users-previous{
+    margin-top: -15px !important;
+  }
+  .users-next{
+    margin-top: -15px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 17!important;
+
+  }
+ 
+}
+@media (min-width:670.5px) and (max-width:680.5px){
+  .newfifth-part{
+    width:570px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 40px;
+    width: 630px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 30px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 30px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:665px !important;
+    }
+    .my-users {
+      margin-left: 325px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 325px;
+    }
+    .third-colon {
+      margin-left: 60px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 40px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 120px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 665px !important;
+  }
+   
+  .users-previous{
+    margin-top: -15px !important;
+  }
+  .users-next{
+    margin-top: -15px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 17!important;
+
+  }
+ 
+}
+@media (min-width:680.5px) and (max-width:690.5px){
+  .newfifth-part{
+    width:670px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 40px;
+    width: 630px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 30px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 30px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:665px !important;
+    }
+    .my-users {
+      margin-left: 325px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 325px;
+    }
+    .third-colon {
+      margin-left: 60px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 40px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 120px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 665px !important;
+  }
+   
+  .users-previous{
+    margin-top: -15px !important;
+  }
+  .users-next{
+    margin-top: -15px !important;
+  
+  
+  }
+  .users-next-icon{
+    margin-left: 55px!important;
+
+  }
+ 
+}
+@media (min-width:690.5px) and (max-width:700.5px){
+  .newfifth-part{
+    width:670px;
+    height:320px
+  }
+    .car-title{
+      margin-left: 40px;
+  
+    }
+    .paragraph {
+    font-size: 15px;
+    margin-left: 40px;
+    width: 660px !important;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .first-colon {
+     
+      margin-left: 30px !important;
+    
+      top: -90px; 
+     
+    }
+    .second-colon {
+      margin-left: 30px !important;
+      top: -90px; 
+     
+    }
+    #carouselExampleCaptions{
+      width:677px !important;
+    }
+    .my-users {
+      margin-left: 335px;
+      margin-bottom: 3px;
+      font-weight: 700;
+    }
+    .date {
+     
+      margin-top: -2px;
+      margin-left: 335px;
+    }
+    .third-colon {
+      margin-left: 60px !important;
+      top: -90px; 
+     
+    }
+    .fourth-colon {
+      margin-left: 40px !important;
+      top: -90px;
+     
+    }
+    .fifth-colon {
+      margin-left: 120px !important;
+      top: -90px;
+     
+    }
+    .carousel-inner {
+      width: 700px !important;
+  }
+   
+  .users-previous{
+    margin-top: -15px !important;
+  }
+  .users-next{
+    margin-top: -15px !important;
+    width:10px;
+  
+  
+  
+  }
+  .users-next-icon{
+    margin-left: -10px!important;
+
+  }
+  
+ 
+}
