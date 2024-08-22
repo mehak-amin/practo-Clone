@@ -19,7 +19,7 @@ function Users() {
     <div className="newfifth-part">
       <h2 className="car-title">What users have to say</h2>
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
+        <div className="carousel-inner carousel-inner-second">
           {carouselItems.map((item, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
               <div className="d-block w-100 carousel-itemm">
@@ -41,7 +41,7 @@ function Users() {
           ))}
         </div>
         <div className="carousel-control-prev users-previous" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="carousel-control-prev-icon users-previous-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </div>
         <div className="carousel-control-next users-next"  data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
