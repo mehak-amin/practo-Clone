@@ -2484,7 +2484,13 @@
     width:1070px
   }
 }
-
+/* carousal control next *
+    .carousel-control-next {
+        width: 20px;
+        margin-top: -10px !important;
+        padding: 3px !important;
+        margin-right: 30px !important;
+    } /
 
 
 /* ---------------------BOOK AN OPPOINTMENT  TEXT ------------------------------------------*/

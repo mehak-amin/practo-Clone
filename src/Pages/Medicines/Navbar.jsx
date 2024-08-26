@@ -54,7 +54,7 @@ function NavBar() {
   }, []);
 
   return (
-    <div className="navbar-container">
+    <div className="navbar-container med-navbar-container">
       <nav className="navbar">
         <div className="nav-container nav-container-med">
           <div className="navbar-new-logo">
@@ -64,11 +64,11 @@ function NavBar() {
           </div>
        
          
-          <div className="menu-icon" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+          <div className="menu-icon med-menu-icon" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             <GiHamburgerMenu />
           </div>
        
-          <div className={`nav-mid ${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
+          <div className={`nav-mid new-nav-mid ${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
             <ul className="nav-links left">
               <li><Link to="/findDoctors">Find Doctors</Link></li>
               <li><Link to="/videoConsult">Video Consult</Link></li>
@@ -76,8 +76,8 @@ function NavBar() {
               <li><Link to="/medicines">Medicines</Link></li>
             </ul>
           </div>
-          <div className={`nav-right ${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
-            <ul className="nav-links right">
+          <div className={`nav-right med-nav-right ${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
+            <ul className="nav-links  med-nav-links right">
               <li className="nav-itemm dropdownplz" ref={dropdownRef1}>
                 <a
                   className="nav-link dropdownplz-toggle"

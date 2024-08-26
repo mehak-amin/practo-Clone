@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import './App.css'; // Ensure correct path to your CSS file
+import './App.css'; 
 import { Link } from 'react-router-dom';
 
 
@@ -54,7 +54,7 @@ function NavBar() {
   }, []);
 
   return (
-    <div className="navbar-container">
+    <div className="navbar-container ">
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">

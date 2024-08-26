@@ -1434,7 +1434,7 @@
 }
 @media (min-width: 981px) and (max-width:1000px){
   .image {
-    width: 920px !important; /* Adjust width as needed */
+    width: 900px !important; /* Adjust width as needed */
     height: 250px !important; /* Adjust height as needed */
     margin-left: 80px !important;
     margin-top: 20px !important;
@@ -1448,7 +1448,7 @@
   }
   
   .carousel-inner {
-    width: 1020px !important;
+    width: 1000px !important;
     margin-left: -20px !important;
   }
 
