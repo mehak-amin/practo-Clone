@@ -91,7 +91,7 @@ function ThirdCard() {
           </div>
         )}
         {currentStartIndex + itemsPerSlide < ThirdcardData.length && (
-          <div className="carousel-control-next carousel-arrow-container">
+          <div className="carousel-control-next carousel-control-next-third carousel-arrow-container">
             <button className="carousel-arrow-three" type="button" onClick={nextSlide}>
               <span className="carousel-arrow-icon-three">&#9654;</span>
             </button>

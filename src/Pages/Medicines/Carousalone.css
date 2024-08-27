@@ -40,7 +40,16 @@
   transform: rotate(-45deg);
   margin-right: 90px !important;
 }
+/* .new-column-new{
+  width:1260px
+} */
 
+.carousel-control-next {
+  width: -moz-max-content !important;
+  /* width: max-content !important; */
+  padding: 1px;
+  width: 0px;
+  margin-right: 40px;}
 
 
 

@@ -8,6 +8,7 @@
   margin-right: 0px !important;
   margin-top: 5px !important;
   position: relative;
+ 
 }
 
 .carousel-container {
@@ -78,10 +79,15 @@
   left: -68px !important; /* Adjust as needed to position inside the image */
 }
 
-.carousel-control-next {
-  right: -68px !important; /* Adjust as needed to position inside the image */
+/* .carousel-control-next {
+  margin-top: -3px !important;
+} */
+.carousel-control-next-third {
+  width: max-content !important;
+  margin-top: -3px !important;
+  padding: 1px !important;
+  margin-right: 16px !important;
 }
-
 .carousel-arrow-three {
   width: 40px; /* Adjust as needed */
   height: 40px; /* Adjust as needed */

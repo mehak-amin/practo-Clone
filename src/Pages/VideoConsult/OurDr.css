@@ -159,7 +159,7 @@
     }
 
 
-    /* How it works text  */
+    /*-------------------------------------------- How it works text------------------------------------------  */
 
 
     .works-heading{
@@ -215,7 +215,7 @@
     background: #eaeaea;
     height: 2px;
     display: block;
-    top: -80px;
+    top: -130px;
     left: 21.5%; /* Adjust this value to center the line */
     position: relative; /* Ensure proper positioning */
   }
@@ -225,7 +225,167 @@
     background: #eaeaea;
     height: 2px;
     display: block;
-    top: -80px;
+    top: -132px;
     left: 51.8%; /* Adjust this value to center the line */
     position: relative; /* Ensure proper positioning */
   }
+
+  /* -------------------------BLACK COUNT--------------------------------- */
+  .black {
+    background-color: #2d2d32;
+}
+.trust-metrics-section {
+    margin: 16px auto;
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 16px 0;
+}
+.desktop-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    width: 100%;
+}
+.trust-metrics-section .each-metric {
+    text-align: center;
+    width: 25%;
+}
+.trust-metrics-section .metric-count {
+    font-size: 24px;
+    font-weight: 700;
+}
+.trust-metrics-section .metric-name {
+    margin-top: 10px;
+    font-size: 16px;
+}
+/* -----------------------------benifits of online consultation ---------------------------------------*/
+.benifits-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 40px;
+}
+.homepage-section-heading {
+    color: #2d2d32;
+    font-size: 30px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.card-paper {
+    border-radius: 4px;
+    border: 1px solid #f0f0f5;
+    background-color: #fff;
+    margin-top: -10px;
+}
+.grid__row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.grid__col-md-4 {
+    -ms-flex-preferred-size: 33.33333%;
+    flex-basis: 33.33333%;
+}
+.u-spacer__15x {
+    margin: 30px;
+}
+.u-font__s-subheading {
+    font-size: 20px;
+    color: #2d2d32;
+    font-weight:550;
+
+}
+
+.u-spacer__7x-bottom {
+    margin-bottom: 14px;
+}
+.card p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.u-font__c-gray3 {
+    color: #787887;
+}
+
+
+/* -----------------------------------------VIDEO PART------------------------------------------ */
+
+#ConsultationExperienceVideos{
+    margin-top: 50px;
+  
+}
+.homepage-section-heading-new {
+    margin-left: 10px;
+    color: #2d2d32;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    font-weight: 600;
+
+}
+
+.video-cards {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 16px;
+    
+ 
+    margin-left: -10px;
+}
+  .video-card {
+
+    min-width: 420px;
+    max-width: 514px;
+    
+}
+.video-card__content{
+    height:270px;
+    width:90%;
+    
+}
+.video-card__title {
+    line-height: 1.2;
+  
+   
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2d2d32;
+}
+.horizontal-scroll {
+ width:1140px;
+    overflow-x: auto; 
+    gap: 20px;
+    scroll-snap-type: x mandatory; 
+    margin-left: 50px;
+  }
+/*--------------------------------------------------- USERS SAY------------------------------------------ */
+.users-say-heading{
+    margin-top: 45px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+  
+    
+.users-card-containernew {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 1150PX;
+    margin-bottom: 50px;
+    gap: 20px; /* Adjust the gap as needed */
+    margin-left: 40px !important; /* Adjusted to move to the right */
+    padding-left: 0;
+    margin-right: 10px !important; /* Adjusted to move to the right */
+    margin-top: 10px;
+    }
