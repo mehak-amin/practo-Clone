@@ -5,6 +5,7 @@ import HealthCard from "./HealthCard"
 import OurDr from "./OurDr"
 import WorkContent from "./WorkContent"
 import UsersSay from "./UsersSay"
+import Faq from "./Faq"
 
 
 
@@ -22,6 +23,8 @@ export default function VideoConsult() {
       <OurDr/>
       <WorkContent/>
       <UsersSay/>
+      <Faq/>
+    
      
     
     </div>
