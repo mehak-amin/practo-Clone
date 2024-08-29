@@ -6,6 +6,7 @@ import OurDr from "./OurDr"
 import WorkContent from "./WorkContent"
 import UsersSay from "./UsersSay"
 import Faq from "./Faq"
+import HealthQueries from "./HealthQueries"
 
 
 
@@ -24,6 +25,7 @@ export default function VideoConsult() {
       <WorkContent/>
       <UsersSay/>
       <Faq/>
+      <HealthQueries/>
     
      
     
