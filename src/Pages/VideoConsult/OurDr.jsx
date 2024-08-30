@@ -7,10 +7,10 @@ function OurDr() {
     { userName: 'Dr. Shubham Jhanwar', userIcon: '/logo/dr-shubham-jhanwar.png', date: 'Psychiatrist, Sexologist' , next: '4 Years experience ', secondNext:'11143 consults done'},
     { userName: 'Dr. Shivanu Mathon', userIcon: '/logo/dr-shivanu-.jpg', date: 'Dermatologist', next: '8 Years experience ', secondNext:'24629 consults done' },
     { userName: 'Dr. Shruti Kamat', userIcon: '/logo/dr-shruti-kamat-.jpg', date: 'Pediatric Dermatologist, Dermat...', next: '4 Years experience ', secondNext:'4313 consults done' },
-    { userName: 'Mahesh Sisara', userIcon: '/logo/mahesh.jpg', date: 'Dermatologist', next: '8 Years experience ', secondNext:'24567 consults done' },
-    { userName: 'Mahesh Sisara', userIcon: '/logo/mahesh.jpg', date: 'Dermatologist' , next: '8 Years experience ', secondNext:'24567 consults done'},
-    { userName: 'Mahesh Sisara', userIcon: '/logo/mahesh.jpg', date: 'Dermatologist' , next: '8 Years experience ', secondNext:'24567 consults done'},
-    { userName: 'Mahesh Sisara', userIcon: '/logo/mahesh.jpg', date: 'Dermatologist', next: '8 Years experience ', secondNext:'24567 consults done' },
+    { userName: 'Dr Hitesh Viradiya', userIcon: '/logo/dr-hitesh-viradiya-610d46ab0cf9b.jpg', date: 'Dermatologist, Cosmetologist, H...', next: '8 Years experience ', secondNext:'43323 consults done' },
+    { userName: 'Dr. Girraj sharma', userIcon: '/logo/dr-girraj-sharma-64ef6a2237d77.jpg', date: 'Dermatologist' , next: '4 Years experience ', secondNext:'550 consults done'},
+    { userName: 'Dr. Kamal Kishore Verma', userIcon: '/logo/dr-kamal-kishore-verma-5d69f93f40699.jpg', date: 'Sexologist,Psychiatrist' , next: '16 Years experience ', secondNext:'90739consults done'},
+    { userName: 'Dr. Vijaya Gupta', userIcon: '/logo/dr-vijaya-gupta-1475819879-57f739673cbe2.jpg', date: 'Gynecologist, Obstetrician', next: '21 Years experience ', secondNext:'51405 consults done' },
   ];
 
   const [currentStartIndex, setCurrentStartIndex] = useState(0);

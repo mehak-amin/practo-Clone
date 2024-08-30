@@ -7,7 +7,7 @@ export default function FirstFile() {
   return (
     <div id="FirstFold">
       <div className="pink">
-        <section className="first-fold desktop-wrapper">
+        <section className="first-fold desktop-one-wrapper">
           <div className="content">
             <div className="heading">
               <h1 className="fw-bold mt-3">Skip the travel!</h1>

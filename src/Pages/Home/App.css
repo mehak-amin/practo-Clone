@@ -8,6 +8,7 @@
   font-size: 1.2rem;
   position: relative;
   z-index: 1000; /* Ensure the navbar stays on top */
+  height: 65px;
 }
 
 .nav-container {

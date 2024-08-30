@@ -40,7 +40,7 @@ function HealthCard() {
   };
 
   return (
-    <div>
+    <div className='health-card-div'>
       <div className="health-card-containernew">
         {currentStartIndex > 0 && (
           <div className="health-carousel-control-prev-Special health-carousel-arrow-container-Special">

@@ -74,7 +74,7 @@ export default function WorkContent() {
       {/* ----------------------BENIFITS OF ONLINE CONSULTATION---------------------- */}
       <div id="BenefitsSection">
         <div className="homepage-section-wrapper benifits-wrapper">
-          <h2 className="homepage-section-heading">
+          <h2 className="homepage-benifits-section-heading">
             Benefits of Online Consultation
           </h2>
           <div data-testid="base-card" className="card card-paper">

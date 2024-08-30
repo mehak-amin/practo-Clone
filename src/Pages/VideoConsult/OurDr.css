@@ -1,4 +1,6 @@
-
+.health-queries-div{
+  width:1246px
+}
 .dr-rounded-image{
     width: 49px;
     height: 49px;
@@ -210,22 +212,22 @@
    }
    .divider-one {
     content: "";
-    width: 25.7%;
+    width: 24.6%;
     background: #eaeaea;
     height: 2px;
     display: block;
     top: -130px;
-    left: 21.5%; /* Adjust this value to center the line */
+    left: 20.8%; /* Adjust this value to center the line */
     position: relative; /* Ensure proper positioning */
   }
   .divider-two{
     content: "";
-    width: 30%;
+    width: 28.9%;
     background: #eaeaea;
     height: 2px;
     display: block;
     top: -132px;
-    left: 51.8%; /* Adjust this value to center the line */
+    left: 50.3%; /* Adjust this value to center the line */
     position: relative; /* Ensure proper positioning */
   }
 
@@ -268,12 +270,13 @@
     width: 100%;
     margin-top: 40px;
 }
-.homepage-section-heading {
+.homepage-benifits-section-heading {
     color: #2d2d32;
     font-size: 30px;
     line-height: 1.5;
     padding-bottom: 30px;
     font-weight: bold;
+   
 }
 .card-paper {
     border-radius: 4px;
@@ -648,7 +651,7 @@
  /*----------------------------------- STILL DELAYING-------------------------------------- */
  .health-black {
     background-color: #2d2d32;
-    height: 150px;
+    height: 180px;
 }
 
   
@@ -708,7 +711,7 @@
   /*-------------------------------------- DOWNLOAD PART------------------------------------- */
   .doctor-container {
   
-    background-color: #f8f8fb !important;
+    background-color: #f0f0f5;
     margin-top: -20px;
     text-align: left;
     height: 540px !important;
@@ -717,12 +720,12 @@
   }
   
   .doctor-custom-img {
-    width: 310px !important;
-    height: 550px !important;
-    margin-left: -280px;
+    width: 290px !important;
+    height: 520px !important;
+    margin-left: -210px;
     border: none !important; 
     border-radius: 10px;
-    margin-top: 180px;
+    margin-top: 220px;
   }
   
   .col {
@@ -769,22 +772,25 @@
   }
 
   .doctor-paragraph{
-    color: #2d2d32;
+    font-weight: 700;
     font-size: 16px;
+    color: #414146;
     margin-top: -25px !important;
   }
   
   
-  .medicine-phone-input-container {
+  .doctor-phone-input-container {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #f0f0f5;
+    border-radius: 2px;
     /* overflow: hidden; */
-    width: 340px !important;
+    width: 320px !important;
+    height: 45px;
+    background-color: #fff;
   }
-  .medicine-phone-input {
+  .doctor-phone-input {
     border: none;
     outline: none;
     font-size: 16px;
@@ -799,7 +805,7 @@
     border-right: 1px solid #ccc;
   }
   
-  .medicine-phone-input {
+  .doctor-phone-input {
     border: none;
     outline: none;
     font-size: 16px;
@@ -811,13 +817,13 @@
     height: 100%;
     background-color: #ccc;
   }
-  .medicine-phoneButton {
-    background-color:  #27c4f8;
+  .doctor-phoneButton {
+    background: #199fd9;
     color: white;
-    width: 190px !important; 
-    height: 50px;
-    border: none;
-    border-radius: 4px;
+    width: 195px !important; 
+    height: 43.5px;
+    border: 1px solid #199fd9;
+    border-radius:2px;
     cursor: pointer;
     /* margin-left: px;  */
     font-size: 15px;
@@ -825,13 +831,13 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    margin-left: 98px !important;
+    margin-left: 78px !important;
   }
   
  
   
   /* Ensures text in button stays on one line */
-  .medicine-phoneButton span {
+  .doctor-phoneButton span {
     white-space: nowrap;
   }
   .downloadButtons{
@@ -857,12 +863,15 @@
     width: 20px; 
     margin-right: 8px; 
   }
-  .medicine-link-text{
+  .doctor-link-text{
    margin-top: 40px;
     color: #414146;
+    font-size: 16px;
+    font-weight: 700;
+    
   }
  .doctorText{
-  margin-left: -300px !important;
+  margin-left: -150px;
   margin-top: -50px !important;
  }
  .play-store{
@@ -881,8 +890,16 @@
     margin-left: 0;
   }
  
-
-
+  .no-bullets li {
+    font-size: 14px;
+    color: #414146;
+    margin-top: 10px;
+    
+  }
+.li-text{
+  margin-left: 10px !important;
+  display: inline;
+}
   /* ------------------------------SEO SECTION i.e ONLY TEXT--------------------------------- */
   #SeoSection {
     margin-top: -50px;

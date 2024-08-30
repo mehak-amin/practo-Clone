@@ -1,5 +1,7 @@
 /* src/HeaderWithButton.css */
-
+.health-card-div{
+  width:1200px
+}
 .specialities-header-container {
   display: flex;
   justify-content: space-between;
