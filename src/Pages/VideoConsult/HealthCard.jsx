@@ -1,4 +1,6 @@
-import { useState } from 'react';
+
+
+import { useState, useEffect } from 'react';
 import './Specialities.css';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
@@ -16,9 +18,31 @@ function HealthCard() {
   ];
 
   const [currentStartIndex, setCurrentStartIndex] = useState(0);
+  const [itemsPerSlide, setItemsPerSlide] = useState(window.innerWidth <= 500 ? 2 : 4);
+
+  useEffect(() => {
+    const updateItemsPerSlide = () => {
+      if (window.innerWidth <= 500) {
+        setItemsPerSlide(2);
+      } else {
+        setItemsPerSlide(4);
+      }
+      // Reset the start index to avoid potential overflow
+      setCurrentStartIndex(0);
+    };
+
+    window.addEventListener('resize', updateItemsPerSlide);
+
+    // Initial check
+    updateItemsPerSlide();
+
+    return () => {
+      window.removeEventListener('resize', updateItemsPerSlide);
+    };
+  }, []);
 
   const nextSlide = () => {
-    if (currentStartIndex + 4 < HealthcardData.length) {
+    if (currentStartIndex + itemsPerSlide < HealthcardData.length) {
       setCurrentStartIndex(currentStartIndex + 1);
     }
   };
@@ -31,7 +55,7 @@ function HealthCard() {
 
   const getVisibleCards = () => {
     const visibleCards = [];
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < itemsPerSlide; i++) {
       if (HealthcardData[currentStartIndex + i]) {
         visibleCards.push(HealthcardData[currentStartIndex + i]);
       }
@@ -59,7 +83,7 @@ function HealthCard() {
             </div>
           ))}
         </div>
-        {currentStartIndex + 4 < HealthcardData.length && (
+        {currentStartIndex + itemsPerSlide < HealthcardData.length && (
           <div className="health-carousel-control-next-Special health-carousel-arrow-container-Special">
             <button className="health-carousel-arrow-Special" type="button" onClick={nextSlide}>
               <span className="health-carousel-arrow-icon-Special">&#9654;</span>
@@ -67,13 +91,9 @@ function HealthCard() {
           </div>
         )}
       </div>
-   
 
 
-
-
-
-
+      
 
     {/* OFFERS  PART*/}
 
@@ -109,10 +129,7 @@ function HealthCard() {
         </div>
       </div>
     </div>
-
-
     </div>
-   
   );
 }
 

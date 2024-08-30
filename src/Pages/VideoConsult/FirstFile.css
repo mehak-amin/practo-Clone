@@ -138,3 +138,52 @@ width: 170px;
   font-weight: 550 !important;
   border-radius: 10px !important;
 }
+
+/* RESPONSIVE */
+@media (max-width:500px){
+  #FirstFold {
+    margin: 0 auto;
+    max-width: 50px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    
+  }
+  .imgBanner {
+   display: none !important;
+  }
+  .pink {
+    background-color: #f8e9e6;
+    padding: 3px;
+    margin-left: -725px !important;
+    margin-top: -10px !important;
+    height: 380px;
+    margin-right: -80px !important;
+    width: 500px;
+  }
+  .content {
+    flex: 1;
+    padding-right: 0px;
+    margin-top: 10px !important;
+    width:350px
+  }
+  .additional-icons{
+   
+    width:500px !important
+  }
+  
+  .heading h1 {
+    font-size: 24px;
+    margin-top: 10px; 
+    width:390px
+  }
+  .fs-5{
+    font-size: 15px !important;
+  }
+  .first-fold {
+    width:0px
+  }
+  #docCount{
+    font-size: 14px !important;
+    margin-top: 15px;
+  }
+}
